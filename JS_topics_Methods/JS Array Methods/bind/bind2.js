@@ -9,3 +9,4 @@ const person = {
 const getFullName = person.fullName.bind(person);
 
 console.log(getFullName()); // Emily Johnson
+//some comment
