@@ -1,0 +1,12 @@
+const person = {
+  fullName: function () {
+    return this.firstName + ' ' + this.lastName;
+  }
+};
+
+const person1 = {
+  firstName: 'John',
+  lastName: 'Doe'
+};
+
+console.log(person.fullName.call(person1)); // John Doe
