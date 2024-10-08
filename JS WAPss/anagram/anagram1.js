@@ -22,7 +22,7 @@ function isAnagramOptimized(str1, str2) {
     if (!charCount[char]) {
       return false; // If character is not present or count is zero
     }
-    charCount[char];
+    charCount[char]--;
   }
 
   return true;
