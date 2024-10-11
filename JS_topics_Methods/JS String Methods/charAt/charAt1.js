@@ -2,9 +2,6 @@
 
 // The index of the first character is 0, the second 1, ...
 
-const string = 'vivek';
+const name = 'vivek';
 
-const letter = string.charAt(1);
-
-console.log(letter);
-// /factorial/factorial/p/
+console.log(name.charAt(4));

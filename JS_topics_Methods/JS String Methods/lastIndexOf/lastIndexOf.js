@@ -1,4 +1,3 @@
+const string = 'vivek is learning coding.';
 
-const string = "vivek is learning coding."
-
-console.log(string.lastIndexOf("k"))
+console.log(string.lastIndexOf('v'));
