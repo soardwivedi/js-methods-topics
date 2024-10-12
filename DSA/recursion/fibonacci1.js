@@ -1,7 +1,7 @@
-function factorial(num) {
+function fibonacci(num) {
   if (num == 1) return 0;
   if (num == 2) return 1;
-  return factorial(num - 1) + factorial(num - 2);
+  return fibonacci(num - 1) + fibonacci(num - 2);
 }
 
-console.log(factorial(5));
+console.log(fibonacci(5));
