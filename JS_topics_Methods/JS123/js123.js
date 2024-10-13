@@ -5,3 +5,7 @@ console.log(bar + true);
 console.log(bar + false);
 
 console.log(false + false);
+
+var z = 1,
+  y = (z = typeof y);
+console.log(y);
