@@ -6,5 +6,3 @@ function factorial(num) {
 }
 
 console.log(factorial(num));
-
-console.log(factorial(10));
