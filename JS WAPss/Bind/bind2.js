@@ -5,9 +5,9 @@ const introObj = {
 };
 
 function bindIntroObj(name, age, city) {
-  console.log(`Hi my name is ${name} my age is ${age}  and city is ${city}`);
+  return `Hi my name is ${name} my age is ${age}  and city is ${city}`;
 }
 
-const introObjFunBind = bindIntroObj.bind('Vivek', '25', 'NOIDA');
+const introObjFunBind = bindIntroObj.bind(null, 'Vivek', '25', 'NOIDA');
 
 console.log(introObjFunBind());
