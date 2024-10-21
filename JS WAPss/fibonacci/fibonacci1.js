@@ -15,3 +15,4 @@ function fibonacci(num) {
   }
   return;
 }
+console.log(fibonacci(num));
