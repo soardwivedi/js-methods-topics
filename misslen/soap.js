@@ -18,8 +18,8 @@ const soapRequest = async () => {
     const response = await axios.post(url, soapEnvelope, {
       headers: {
         'Content-Type': 'text/xml;charset=UTF-8',
-        'SOAPAction': 'http://www.example.com/webservice/GetData', // Replace with your SOAPAction
-      },
+        SOAPAction: 'http://www.example.com/webservice/GetData' // Replace with your SOAPAction
+      }
     });
 
     const xml = response.data;
@@ -30,7 +30,8 @@ const soapRequest = async () => {
       }
 
       // Assuming the response has a structure like <Envelope><Body><GetDataResponse><Data>...</Data></GetDataResponse></Body></Envelope>
-      const data = result['soap:Envelope']['soap:Body']['GetDataResponse']['Data'];
+      const data =
+        result['soap:Envelope']['soap:Body']['GetDataResponse']['Data'];
       console.log(data);
     });
   } catch (error) {
