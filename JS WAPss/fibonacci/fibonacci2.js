@@ -1,19 +1,18 @@
-const { text } = require('express');
-
-const num = 3;
+const num = 5;
 
 function fibonacci(num) {
   let num1 = 0;
   let num2 = 1;
-  let temp;
+  let tempVariable;
   console.log(num1);
   console.log(num2);
   for (let i = 0; i < num; i++) {
-    temp = num1 + num2;
-    console.log(temp);
+    tempVariable = num1 + num2;
+    console.log(tempVariable);
     num1 = num2;
-    num2 = temp;
+    num2 = tempVariable;
   }
   return num1 + num2;
 }
+
 console.log(fibonacci(num));
