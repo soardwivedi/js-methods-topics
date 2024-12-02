@@ -1,8 +1,17 @@
 const myPromise = new Promise((resolve, reject) => {
-  if (reject) return 'false';
-  else {
-    const success = console.log(true);
+  const data = false;
+
+  if (data) {
+    resolve('Data fetched successfully');
+  } else {
+    reject('Error in fetching data');
   }
 });
 
-const myPromise1 = new Promise((resolve, reject) => {});
+myPromise
+  .then((resolve) => {
+    console.log('Data fetched');
+  })
+  .catch((reject) => {
+    console.log('Error in fetching data in catch');
+  });
