@@ -24,7 +24,6 @@ function isAnagramOptimized(str1, str2) {
     }
     charCount[char]--;
   }
-
   return true;
 }
 
