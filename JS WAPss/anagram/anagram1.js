@@ -13,8 +13,8 @@ function isAnagramOptimized(str1, str2) {
 
   for (let char of cleanedStr1) {
     charCount[char] = (charCount[char] || 0) + 1;
-    console.log('charCount is =>', charCount);
-    console.log('charCount[char]', charCount[char]);
+    // console.log('charCount is =>', charCount);
+    // console.log('charCount[char]', charCount[char]);
   }
 
   // Compare the character counts with the second string
