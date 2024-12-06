@@ -1,7 +1,8 @@
 const express = require('express');
+const app = express();
 app.use(express);
 app.use(express.json());
-const PORT = 3000;
+const PORT = 3007;
 
 app.post('/api/greet', (req, res) => {
   const { name } = req.body;
@@ -12,6 +13,6 @@ app.post('/api/greet', (req, res) => {
   }
 });
 
-app.liten(PORT, () => {
+app.listen(PORT, () => {
   console.log('Server is runnunig on port ' + PORT);
 });
