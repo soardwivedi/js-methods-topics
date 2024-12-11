@@ -11,7 +11,7 @@ function fibonacci(num) {
     num1 = num2;
     num2 = temp;
   }
-  return;
+  return temp + num1;
 }
 
 console.log(fibonacci(num));
