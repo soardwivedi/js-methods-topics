@@ -7,3 +7,4 @@ for (let i = 0; i < strNew.length; i++) {
 }
 
 console.log(str);
+console.log('asdf');
