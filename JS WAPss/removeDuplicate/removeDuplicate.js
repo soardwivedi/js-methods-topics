@@ -3,10 +3,11 @@ function removeDuplicates(arr) {
   let resultArray = []; // Array to store the result
 
   for (let i = 0; i < arr.length; i++) {
-    console.log(uniqueElements);
+    // console.log(uniqueElements);
     if (!uniqueElements[arr[i]]) {
       uniqueElements[arr[i]] = true; // Mark element as seen
-      resultArray.push(arr[i]); // Add unique element to result array
+      resultArray[arr[i]] = arr[i];
+      // resultArray.push(arr[i]); // Add unique element to result array
     }
   }
 
