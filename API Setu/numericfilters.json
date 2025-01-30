@@ -1,0 +1,520 @@
+{
+    "status": "Success",
+    "statusCode": 200,
+    "result": {
+        "appliedRules": [],
+        "exhaustiveNbHits": true,
+        "exhaustiveFacetsCount": true,
+        "exhaustiveTypo": true,
+        "exhaustive": {
+            "facetsCount": true,
+            "nbHits": true,
+            "typo": true
+        },
+        "hitsPerPage": 7,
+        "processingTimeMS": 8,
+        "nbHits": 119,
+        "page": 0,
+        "nbPages": 17,
+        "query": "",
+        "renderingContent": {
+            "facetOrdering": {
+                "facets": {
+                    "order": [
+                        "orgName",
+                        "orgState",
+                        "authority",
+                        "categories",
+                        "apiname",
+                        "centralMinistry",
+                        "stateDepartment",
+                        "mostPopular",
+                        "subdomainName",
+                        "totalCollection",
+                        "total_api",
+                        "apiType"
+                    ]
+                },
+                "values": {
+                    "orgName": {
+                        "sortRemainingBy": "count"
+                    },
+                    "orgState": {
+                        "sortRemainingBy": "count"
+                    },
+                    "authority": {
+                        "sortRemainingBy": "count"
+                    },
+                    "categories": {
+                        "sortRemainingBy": "count"
+                    },
+                    "apiname": {
+                        "sortRemainingBy": "count"
+                    },
+                    "centralMinistry": {
+                        "sortRemainingBy": "count"
+                    },
+                    "stateDepartment": {
+                        "sortRemainingBy": "count"
+                    },
+                    "mostPopular": {
+                        "sortRemainingBy": "count"
+                    },
+                    "subdomainName": {
+                        "sortRemainingBy": "count"
+                    },
+                    "totalCollection": {
+                        "sortRemainingBy": "count"
+                    },
+                    "total_api": {
+                        "sortRemainingBy": "count"
+                    },
+                    "apiType": {
+                        "sortRemainingBy": "count"
+                    }
+                }
+            }
+        },
+        "hits": [
+            {
+                "objectID": "110142",
+                "_index": "apidirectory_v2",
+                "orgName": "ANNAMACHARYA COLLEGE OF PHARMACY",
+                "orgDescription": "ANNAMACHARYA COLLEGE OF PHARMACY is issuing their Digital awards for the following years,through DigiLocker. These can be pulled by students into their DigiLocker accounts.\nDegree Marksheets-2024\n",
+                "link": "https://cf-media.api-setu.in/logo/issuers/110142.png",
+                "apiCount": 1,
+                "CollectionCount": 1,
+                "stateDepartment": "",
+                "priority": 9999,
+                "orgId": "110142",
+                "tags": "",
+                "issuerId": "in.ancpap",
+                "orgType": "State Government",
+                "stateLogo": "https://img1.digitallocker.gov.in/public/assets/logo/state_v1/AP.png",
+                "centralMinistry": "",
+                "categories": [
+                    {
+                        "catName": "Education & Learning"
+                    }
+                ],
+                "Collections": [
+                    {
+                        "coll_file_name": "ancpap",
+                        "modified_on": "2025-01-08",
+                        "collorgId": "110142",
+                        "created_on": "2025-01-08",
+                        "Apis": [
+                            {
+                                "modified_on": "2025-01-08",
+                                "apiEndpId": "89754",
+                                "spec_code": "DGMST",
+                                "apiName": "Degree/ Diploma Marksheet",
+                                "endpoint": "/certificate/v3/ancpap/dgmst",
+                                "is_both": "N",
+                                "method": "POST",
+                                "mostpopular": 0,
+                                "created_on": "2025-01-08",
+                                "endpOrgId": "110142",
+                                "api_specification_id": "80595",
+                                "is_entity": "N"
+                            }
+                        ],
+                        "spec_shortcode": "ancpap",
+                        "gateway_firewall": true,
+                        "collectionId": "80595",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "ANNAMACHARYA COLLEGE OF PHARMACY",
+                        "tags": [
+                            "NAD"
+                        ]
+                    }
+                ],
+                "subdomainName": "ancpap",
+                "orgState": "Andhra  Pradesh"
+            },
+            {
+                "objectID": "109755",
+                "_index": "apidirectory_v2",
+                "orgName": "College of Social Work",
+                "orgDescription": "College of Social Work  is issuing their Digital awards for the following years,through DigiLocker. These can be pulled by students into their DigiLocker accounts.\n",
+                "link": "https://cf-media.api-setu.in/logo/issuers/109755.png",
+                "apiCount": 1,
+                "CollectionCount": 1,
+                "stateDepartment": "",
+                "priority": 9999,
+                "orgId": "109755",
+                "tags": "",
+                "issuerId": "com.collegeswnnmumbai",
+                "stateLogo": "https://img1.digitallocker.gov.in/public/assets/logo/state_v1/MH.png",
+                "centralMinistry": "",
+                "categories": [
+                    {
+                        "catName": "Education & Learning"
+                    }
+                ],
+                "Collections": [
+                    {
+                        "coll_file_name": "collegeswnnmumbai",
+                        "modified_on": "2025-01-07",
+                        "collorgId": "109755",
+                        "created_on": "2025-01-07",
+                        "Apis": [
+                            {
+                                "modified_on": "2025-01-07",
+                                "apiEndpId": "89746",
+                                "spec_code": "DGMST",
+                                "apiName": "Degree/ Diploma Marksheet",
+                                "endpoint": "/certificate/v3/collegeswnnmumbai/dgmst",
+                                "is_both": "N",
+                                "method": "POST",
+                                "mostpopular": 0,
+                                "created_on": "2025-01-07",
+                                "endpOrgId": "109755",
+                                "api_specification_id": "80588",
+                                "is_entity": "N"
+                            }
+                        ],
+                        "spec_shortcode": "collegeswnnmumbai",
+                        "gateway_firewall": true,
+                        "collectionId": "80588",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "College of Social Work",
+                        "tags": [
+                            "NAD"
+                        ]
+                    }
+                ],
+                "subdomainName": "collegeswnnmumbai",
+                "orgState": "Maharashtra"
+            },
+            {
+                "objectID": "065334",
+                "_index": "apidirectory_v2",
+                "orgName": "Principal Accountant General Manipur",
+                "PublishedOn": "23-01-2025 10:36",
+                "orgDescription": "",
+                "ModifiedOn": "23-01-2025 10:36",
+                "link": "https://cf-media.api-setu.in/logo/issuers/065334.png",
+                "apiCount": 3,
+                "CollectionCount": 1,
+                "stateDepartment": "",
+                "priority": 9999,
+                "orgId": "065334",
+                "tags": "",
+                "issuerId": "in.gov.cag.manipur",
+                "orgType": "State Government",
+                "stateLogo": "https://img1.digitallocker.gov.in/public/assets/logo/state_v1/MN.png",
+                "centralMinistry": "",
+                "categories": [
+                    {
+                        "catName": "Government & Public Sector"
+                    }
+                ],
+                "CreatedOn": "23-08-2023 11:38",
+                "Collections": [
+                    {
+                        "coll_file_name": "agaemanipur",
+                        "modified_on": "2025-01-23T05:06:36.774Z",
+                        "collorgId": "065334",
+                        "created_on": "2025-01-23",
+                        "Apis": [
+                            {
+                                "modified_on": "2025-01-23",
+                                "apiEndpId": "89891",
+                                "spec_code": "GRPYO",
+                                "apiName": "Gratuity Payment Order",
+                                "endpoint": "/certificate/v3/agaemanipur/grpyo",
+                                "is_both": "N",
+                                "method": "POST",
+                                "mostpopular": 0,
+                                "created_on": "2025-01-23",
+                                "endpOrgId": "065334",
+                                "api_specification_id": "80658",
+                                "is_entity": "N"
+                            },
+                            {
+                                "modified_on": "2025-01-23",
+                                "apiEndpId": "89892",
+                                "spec_code": "PCPYO",
+                                "apiName": "Pension Commutation Payment Order",
+                                "endpoint": "/certificate/v3/agaemanipur/pcpyo",
+                                "is_both": "N",
+                                "method": "POST",
+                                "mostpopular": 0,
+                                "created_on": "2025-01-23",
+                                "endpOrgId": "065334",
+                                "api_specification_id": "80658",
+                                "is_entity": "N"
+                            },
+                            {
+                                "modified_on": "2025-01-23",
+                                "apiEndpId": "89893",
+                                "spec_code": "PECER",
+                                "apiName": "Pension Certificate",
+                                "endpoint": "/certificate/v3/agaemanipur/pecer",
+                                "is_both": "N",
+                                "method": "POST",
+                                "mostpopular": 0,
+                                "created_on": "2025-01-23",
+                                "endpOrgId": "065334",
+                                "api_specification_id": "80658",
+                                "is_entity": "N"
+                            }
+                        ],
+                        "spec_shortcode": "agaemanipur",
+                        "gateway_firewall": true,
+                        "collectionId": "80658",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "Principal Accountant General Manipur",
+                        "tags": []
+                    }
+                ],
+                "subdomainName": "agaemanipur",
+                "orgState": "Manipur"
+            },
+            {
+                "objectID": "100445",
+                "_index": "apidirectory_v2",
+                "orgName": "Ministry Of Home Affairs",
+                "PublishedOn": "22-01-2025 16:28",
+                "orgDescription": "Arms license issued through National Database of Arms Licenses-Arms License Issuance System (NDAL-ALIS), developed by MHA, are available to download from DigiLocker.",
+                "ModifiedOn": "22-01-2025 16:28",
+                "link": "https://cf-media.api-setu.in/logo/issuers/100445.png",
+                "apiCount": 1,
+                "CollectionCount": 1,
+                "stateDepartment": "",
+                "priority": 9999,
+                "orgId": "100445",
+                "tags": "",
+                "issuerId": "In.gov.ndalalis",
+                "orgType": "Central Government",
+                "stateLogo": "https://img1.digitallocker.gov.in/public/assets/logo/state_v1/ALL.png",
+                "centralMinistry": "",
+                "categories": [
+                    {
+                        "catName": "Government & Public Sector"
+                    }
+                ],
+                "CreatedOn": "06-08-2024 17:28",
+                "Collections": [
+                    {
+                        "coll_file_name": "ndalalis",
+                        "modified_on": "2025-01-15",
+                        "collorgId": "100445",
+                        "created_on": "2025-01-15",
+                        "Apis": [
+                            {
+                                "modified_on": "2025-01-15",
+                                "apiEndpId": "89844",
+                                "spec_code": "ISOAL",
+                                "apiName": "Arms License",
+                                "endpoint": "/certificate/v3/ndalalis/isoal",
+                                "is_both": "N",
+                                "method": "POST",
+                                "mostpopular": 0,
+                                "created_on": "2025-01-15",
+                                "endpOrgId": "100445",
+                                "api_specification_id": "80636",
+                                "is_entity": "N"
+                            }
+                        ],
+                        "spec_shortcode": "ndalalis",
+                        "gateway_firewall": true,
+                        "collectionId": "80636",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "Ministry Of Home Affairs",
+                        "tags": []
+                    }
+                ],
+                "subdomainName": "ndalalis",
+                "orgState": "All States"
+            },
+            {
+                "objectID": "010370",
+                "_index": "apidirectory_v2",
+                "orgName": "Symbiosis College of Arts and Commerce",
+                "PublishedOn": "09-01-2025 17:23",
+                "orgDescription": "The institute has registered through NAD portal.",
+                "ModifiedOn": "22-01-2025 07:00",
+                "link": "https://cf-media.api-setu.in/logo/issuers/010370.png",
+                "apiCount": 1,
+                "CollectionCount": 1,
+                "stateDepartment": "",
+                "priority": 9999,
+                "orgId": "010370",
+                "tags": "",
+                "issuerId": "in.edu.symbiosiscollege",
+                "orgType": "State Government",
+                "stateLogo": "https://img1.digitallocker.gov.in/public/assets/logo/state_v1/MH.png",
+                "centralMinistry": "",
+                "categories": [
+                    {
+                        "catName": "Education & Learning"
+                    }
+                ],
+                "CreatedOn": "29-03-2022 20:57",
+                "Collections": [
+                    {
+                        "coll_file_name": "symbiosiscollege",
+                        "modified_on": "2025-01-09",
+                        "collorgId": "010370",
+                        "created_on": "2025-01-09",
+                        "Apis": [
+                            {
+                                "modified_on": "2025-01-09",
+                                "apiEndpId": "89770",
+                                "spec_code": "DGMST",
+                                "apiName": "Degree/ Diploma Marksheet",
+                                "endpoint": "/certificate/v3/symbiosiscollege/dgmst",
+                                "is_both": "N",
+                                "method": "POST",
+                                "mostpopular": 0,
+                                "created_on": "2025-01-09",
+                                "endpOrgId": "010370",
+                                "api_specification_id": "80605",
+                                "is_entity": "N"
+                            }
+                        ],
+                        "spec_shortcode": "symbiosiscollege",
+                        "gateway_firewall": true,
+                        "collectionId": "80605",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "Symbiosis College of Arts and Commerce",
+                        "tags": [
+                            "NAD"
+                        ]
+                    }
+                ],
+                "subdomainName": "symbiosiscollege",
+                "orgState": "Maharashtra"
+            },
+            {
+                "objectID": "009913",
+                "_index": "apidirectory_v2",
+                "orgName": "ITM (SLS) Baroda University, Vadodara",
+                "PublishedOn": "21-01-2025 10:53",
+                "orgDescription": "ITM (SLS) Baroda University, Vadodara is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts.\n                Degree - NA \n                Marksheet - 2020 \n                Diploma - NA \n                Transcript - NA",
+                "ModifiedOn": "21-01-2025 10:53",
+                "link": "https://cf-media.api-setu.in/logo/issuers/009913.png",
+                "apiCount": 1,
+                "CollectionCount": 1,
+                "stateDepartment": "",
+                "priority": 9999,
+                "orgId": "009913",
+                "tags": "",
+                "issuerId": "in.ac.itmbu",
+                "orgType": "State Government",
+                "stateLogo": "https://img1.digitallocker.gov.in/public/assets/logo/state_v1/GJ.png",
+                "centralMinistry": "",
+                "categories": [
+                    {
+                        "catName": "Education & Learning"
+                    }
+                ],
+                "CreatedOn": "09-03-2022 12:02",
+                "Collections": [
+                    {
+                        "coll_file_name": "itmbu",
+                        "modified_on": "2025-01-20",
+                        "collorgId": "009913",
+                        "created_on": "2025-01-20",
+                        "Apis": [
+                            {
+                                "modified_on": "2025-01-20",
+                                "apiEndpId": "89864",
+                                "spec_code": "DGMST",
+                                "apiName": "Degree/ Diploma Marksheet",
+                                "endpoint": "/certificate/v3/itmbu/dgmst",
+                                "is_both": "N",
+                                "method": "POST",
+                                "mostpopular": 0,
+                                "created_on": "2025-01-20",
+                                "endpOrgId": "009913",
+                                "api_specification_id": "80647",
+                                "is_entity": "N"
+                            }
+                        ],
+                        "spec_shortcode": "itmbu",
+                        "gateway_firewall": true,
+                        "collectionId": "80647",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "ITM (SLS) Baroda University, Vadodara",
+                        "tags": [
+                            "NAD"
+                        ]
+                    }
+                ],
+                "subdomainName": "itmbu",
+                "orgState": "Gujarat"
+            },
+            {
+                "objectID": "041322",
+                "_index": "apidirectory_v2",
+                "orgName": "St. Xavier's College(Autonomous)",
+                "PublishedOn": "20-01-2025 12:04",
+                "orgDescription": "St. Xavier's College(Autonomous) is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts.\n",
+                "ModifiedOn": "20-01-2025 12:04",
+                "link": "https://cf-media.api-setu.in/logo/issuers/041322.png",
+                "apiCount": 1,
+                "CollectionCount": 1,
+                "stateDepartment": "",
+                "priority": 9999,
+                "orgId": "041322",
+                "tags": "",
+                "issuerId": "ac.xaviers",
+                "orgType": "State Government",
+                "stateLogo": "https://img1.digitallocker.gov.in/public/assets/logo/state_v1/MH.png",
+                "centralMinistry": "",
+                "categories": [
+                    {
+                        "catName": "Education & Learning"
+                    }
+                ],
+                "CreatedOn": "03-01-2023 12:47",
+                "Collections": [
+                    {
+                        "coll_file_name": "xaviers",
+                        "modified_on": "2025-01-20",
+                        "collorgId": "041322",
+                        "created_on": "2025-01-20",
+                        "Apis": [
+                            {
+                                "modified_on": "2025-01-20",
+                                "apiEndpId": "89862",
+                                "spec_code": "DGMST",
+                                "apiName": "Degree/ Diploma Marksheet",
+                                "endpoint": "/certificate/v3/xaviers/dgmst",
+                                "is_both": "N",
+                                "method": "POST",
+                                "mostpopular": 0,
+                                "created_on": "2025-01-20",
+                                "endpOrgId": "041322",
+                                "api_specification_id": "80645",
+                                "is_entity": "N"
+                            }
+                        ],
+                        "spec_shortcode": "xaviers",
+                        "gateway_firewall": true,
+                        "collectionId": "80645",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "St. Xavier's College(Autonomous)",
+                        "tags": [
+                            "NAD"
+                        ]
+                    }
+                ],
+                "subdomainName": "xaviers",
+                "orgState": "Maharashtra"
+            }
+        ],
+        "index": "apidirectory_v2_priority_asc",
+        "params": "numericFilters=created_on%3C%3D1738233840761%2Ccreated_on%3E%3D1735555440761&maxValuesPerFacet=0&hitsPerPage=7"
+    }
+}

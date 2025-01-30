@@ -1,0 +1,1287 @@
+{
+    "status": "Success",
+    "statusCode": 200,
+    "result": {
+        "appliedRules": [],
+        "exhaustiveNbHits": true,
+        "exhaustiveFacetsCount": true,
+        "exhaustiveTypo": true,
+        "exhaustive": {
+            "facetsCount": true,
+            "nbHits": true,
+            "typo": true
+        },
+        "hitsPerPage": 7,
+        "processingTimeMS": 10,
+        "nbHits": 116,
+        "page": 0,
+        "nbPages": 17,
+        "query": "",
+        "renderingContent": {
+            "facetOrdering": {
+                "facets": {
+                    "order": [
+                        "orgName",
+                        "orgState",
+                        "authority",
+                        "categories",
+                        "apiname",
+                        "centralMinistry",
+                        "stateDepartment",
+                        "mostPopular",
+                        "subdomainName",
+                        "totalCollection",
+                        "total_api",
+                        "apiType"
+                    ]
+                },
+                "values": {
+                    "orgName": {
+                        "sortRemainingBy": "count"
+                    },
+                    "orgState": {
+                        "sortRemainingBy": "count"
+                    },
+                    "authority": {
+                        "sortRemainingBy": "count"
+                    },
+                    "categories": {
+                        "sortRemainingBy": "count"
+                    },
+                    "apiname": {
+                        "sortRemainingBy": "count"
+                    },
+                    "centralMinistry": {
+                        "sortRemainingBy": "count"
+                    },
+                    "stateDepartment": {
+                        "sortRemainingBy": "count"
+                    },
+                    "mostPopular": {
+                        "sortRemainingBy": "count"
+                    },
+                    "subdomainName": {
+                        "sortRemainingBy": "count"
+                    },
+                    "totalCollection": {
+                        "sortRemainingBy": "count"
+                    },
+                    "total_api": {
+                        "sortRemainingBy": "count"
+                    },
+                    "apiType": {
+                        "sortRemainingBy": "count"
+                    }
+                }
+            }
+        },
+        "facets": {
+            "apiType": {
+                "Docs": 1863,
+                "Services": 116
+            }
+        },
+        "facets_stats": {},
+        "hits": [
+            {
+                "objectID": "001891",
+                "_index": "apidirectory_v2",
+                "orgName": "Income Tax Department",
+                "PublishedOn": "06-02-2018 14:06",
+                "orgDescription": "Income Tax Department, Govt of India has provided PAN Verification Records to Indian citizens via DigiLocker. You can verify the correctness of your PAN data in real-time using this facility.",
+                "ModifiedOn": "16-10-2024 17:28",
+                "link": "https://cf-media.api-setu.in/logo/issuers/001891.png",
+                "apiCount": 3,
+                "CollectionCount": 3,
+                "stateDepartment": "",
+                "priority": 2,
+                "orgId": "001891",
+                "tags": "Finance",
+                "issuerId": "in.gov.pan",
+                "orgType": "Central Government",
+                "stateLogo": "https://cf-media.api-setu.in/logo/state/ALL.png",
+                "centralMinistry": "Ministry Of Finance",
+                "categories": [
+                    {
+                        "catName": "Government & Public Sector"
+                    },
+                    {
+                        "catName": "Identity Docs"
+                    }
+                ],
+                "CreatedOn": "06-02-2018 13:23",
+                "Collections": [
+                    {
+                        "coll_file_name": "pan",
+                        "modified_on": "2024-02-08",
+                        "collorgId": "001891",
+                        "created_on": "2024-02-08",
+                        "Apis": [
+                            {
+                                "modified_on": "2024-02-12",
+                                "apiEndpId": "16915",
+                                "spec_code": "PANCR",
+                                "apiName": "PAN Verification Record",
+                                "endpoint": "/certificate/v3/pan/pancr",
+                                "mostpopular": 2,
+                                "created_on": "2024-02-08",
+                                "endpOrgId": "001891",
+                                "api_specification_id": "57392",
+                                "available_docs": "702400000"
+                            }
+                        ],
+                        "spec_shortcode": "pan",
+                        "collectionId": "57392",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "Income Tax Department",
+                        "tags": ""
+                    },
+                    {
+                        "coll_file_name": "1718188485_Income-Tax-Department-Organization_pan.yaml",
+                        "modified_on": "2024-06-12",
+                        "collorgId": "001891",
+                        "created_on": "2022-07-18",
+                        "Apis": [
+                            {
+                                "modified_on": "2023-03-06",
+                                "apiEndpId": "14339",
+                                "spec_code": "post-PanIndiaVerification",
+                                "apiName": "Organization PAN Verification API",
+                                "endpoint": "/verify/v1/pan/org",
+                                "is_both": "N",
+                                "method": "POST",
+                                "mostpopular": 0,
+                                "created_on": "2023-01-11",
+                                "endpOrgId": "001891",
+                                "api_specification_id": "4026",
+                                "is_entity": "N"
+                            }
+                        ],
+                        "spec_shortcode": "pan",
+                        "gateway_firewall": true,
+                        "collectionId": "4026",
+                        "apiType": "Services",
+                        "publishedThrough": "",
+                        "collectionName": "Organization PAN Verification API",
+                        "tags": [
+                            "DigitalIndia"
+                        ]
+                    },
+                    {
+                        "coll_file_name": "1726746374_UMANG-PAN.yaml",
+                        "modified_on": "2024-09-19",
+                        "collorgId": "001891",
+                        "created_on": "2024-09-19",
+                        "Apis": [
+                            {
+                                "modified_on": "2024-09-19",
+                                "apiEndpId": "88554",
+                                "spec_code": "",
+                                "apiName": "Get the status of PAN",
+                                "endpoint": "/umang/apisetu/dept/panapi/ws1/trackpan",
+                                "is_both": "N",
+                                "method": "POST",
+                                "mostpopular": 0,
+                                "created_on": "2024-09-19",
+                                "endpOrgId": "001891",
+                                "api_specification_id": "80357",
+                                "is_entity": "N"
+                            }
+                        ],
+                        "spec_shortcode": "pan",
+                        "gateway_firewall": false,
+                        "collectionId": "80357",
+                        "apiType": "Services",
+                        "publishedThrough": "UMANG",
+                        "collectionName": "Track PAN",
+                        "tags": [
+                            ""
+                        ]
+                    }
+                ],
+                "subdomainName": "pan",
+                "orgState": "All States"
+            },
+            {
+                "objectID": "000027",
+                "_index": "apidirectory_v2",
+                "orgName": "Central Board of Secondary Education",
+                "PublishedOn": "21-05-2016 03:59",
+                "orgDescription": "CBSE (http://www.cbse.nic.in/) is issuing marksheets, passing certificates, migration certificates etc. through DigiLocker. These are either pushed, or can be pulled by students into their DigiLocker accounts. Currently available for the following years:-\r\nClass XII- 2001- 2024\r\nClass X- 2001 - 2024\r\nNEET Rank Letter for 2016 and 2017\r\nNEET Marksheet- 2017\r\nCTET Eligibility Certificate & Marksheet- 2018-Dec; 2019-July; 2019-Dec; 2021-Jan; 2021-Dec, 2022-Dec\r\nRegistration Card of class IX & XI are available 2021",
+                "ModifiedOn": "16-10-2024 17:28",
+                "link": "https://cf-media.api-setu.in/logo/issuers/000027.png",
+                "apiCount": 25,
+                "CollectionCount": 2,
+                "stateDepartment": "",
+                "priority": 4,
+                "orgId": "000027",
+                "tags": "Education,Board",
+                "issuerId": "in.gov.cbse",
+                "orgType": "Central Government",
+                "stateLogo": "https://cf-media.api-setu.in/logo/state/DL.png",
+                "centralMinistry": "Ministry of Education",
+                "categories": [
+                    {
+                        "catName": "Education & Learning"
+                    }
+                ],
+                "CreatedOn": "18-05-2016 18:41",
+                "Collections": [
+                    {
+                        "coll_file_name": "cbse",
+                        "modified_on": "2021-12-27",
+                        "collorgId": "000027",
+                        "created_on": "2021-10-28",
+                        "Apis": [
+                            {
+                                "modified_on": "2023-10-17",
+                                "apiEndpId": "58586",
+                                "spec_code": "TETCR",
+                                "apiName": "Teachers Eligibility Test Certificate",
+                                "endpoint": "/certificate/v3/cbse/tetcr",
+                                "mostpopular": 99999,
+                                "created_on": "2023-10-17",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2023-10-17",
+                                "apiEndpId": "58585",
+                                "spec_code": "TETMS",
+                                "apiName": "Teachers Eligibility Test Mark Sheet",
+                                "endpoint": "/certificate/v3/cbse/tetms",
+                                "mostpopular": 99999,
+                                "created_on": "2023-10-17",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28499",
+                                "spec_code": "SSMCR",
+                                "apiName": "Class X Merit Certificate",
+                                "endpoint": "/certificate/v3/cbse/ssmcr",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639",
+                                "available_docs": "30000000"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28498",
+                                "spec_code": "HSMCR",
+                                "apiName": "Class XII Merit Certificate",
+                                "endpoint": "/certificate/v3/cbse/hsmcr",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28497",
+                                "spec_code": "SSCMP",
+                                "apiName": "Class Xth Compartment Marksheet",
+                                "endpoint": "/certificate/v3/cbse/sscmp",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28496",
+                                "spec_code": "HSCMP",
+                                "apiName": "Class XIIth Compartment Marksheet",
+                                "endpoint": "/certificate/v3/cbse/hscmp",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28495",
+                                "spec_code": "SKTSC",
+                                "apiName": "Skill Certificate (XII)",
+                                "endpoint": "/certificate/v3/cbse/sktsc",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28494",
+                                "spec_code": "SKHSC",
+                                "apiName": "Skill Certificate (X)",
+                                "endpoint": "/certificate/v3/cbse/skhsc",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28493",
+                                "spec_code": "NCTSC",
+                                "apiName": "NCHMCT Skill Certificate (XII)",
+                                "endpoint": "/certificate/v3/cbse/nctsc",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28492",
+                                "spec_code": "NSTSC",
+                                "apiName": "NSE Skill Certificate (XII)",
+                                "endpoint": "/certificate/v3/cbse/nstsc",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28491",
+                                "spec_code": "NCHSC",
+                                "apiName": "NCHMCT Skill Certificate (X)",
+                                "endpoint": "/certificate/v3/cbse/nchsc",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28490",
+                                "spec_code": "NSESC",
+                                "apiName": "NSE Skill Certificate (X)",
+                                "endpoint": "/certificate/v3/cbse/nsesc",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28489",
+                                "spec_code": "NTMKS",
+                                "apiName": "NEET Marksheet",
+                                "endpoint": "/certificate/v3/cbse/ntmks",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28488",
+                                "spec_code": "SSMGR",
+                                "apiName": "Class X Migration Certificate",
+                                "endpoint": "/certificate/v3/cbse/ssmgr",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28487",
+                                "spec_code": "HSMGR",
+                                "apiName": "Class XII Migration Certificate",
+                                "endpoint": "/certificate/v3/cbse/hsmgr",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28486",
+                                "spec_code": "SPCER",
+                                "apiName": "Class X / Matriculation Passing Certificate",
+                                "endpoint": "/certificate/v3/cbse/spcer",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28485",
+                                "spec_code": "HPCER",
+                                "apiName": "Class XII Passing Certificate",
+                                "endpoint": "/certificate/v3/cbse/hpcer",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28484",
+                                "spec_code": "NTLTR",
+                                "apiName": "NEET Rank Letter",
+                                "endpoint": "/certificate/v3/cbse/ntltr",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28483",
+                                "spec_code": "SSCER",
+                                "apiName": "Class X Marksheet",
+                                "endpoint": "/certificate/v3/cbse/sscer",
+                                "mostpopular": 4,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2024-05-13",
+                                "apiEndpId": "28482",
+                                "spec_code": "HSCER",
+                                "apiName": "Class XII Marksheet",
+                                "endpoint": "/certificate/v3/cbse/hscer",
+                                "mostpopular": 5,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2023-03-27",
+                                "apiEndpId": "19992",
+                                "spec_code": "EPCER",
+                                "apiName": "Participation/ Appreciation Certificate",
+                                "endpoint": "/certificate/v3/cbse/epcer",
+                                "mostpopular": 99999,
+                                "created_on": "2023-03-27",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2023-03-27",
+                                "apiEndpId": "19991",
+                                "spec_code": "MRCER",
+                                "apiName": "Merit Certificate",
+                                "endpoint": "/certificate/v3/cbse/mrcer",
+                                "mostpopular": 99999,
+                                "created_on": "2023-03-27",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2021-12-29",
+                                "apiEndpId": "1175",
+                                "spec_code": "IXREG",
+                                "apiName": "Class IX Registration",
+                                "endpoint": "/certificate/v3/cbse/ixreg",
+                                "mostpopular": 99999,
+                                "created_on": "2021-12-29",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            },
+                            {
+                                "modified_on": "2021-12-29",
+                                "apiEndpId": "1174",
+                                "spec_code": "XIREG",
+                                "apiName": "Class XI Registration",
+                                "endpoint": "/certificate/v3/cbse/xireg",
+                                "mostpopular": 99999,
+                                "created_on": "2021-12-29",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2639"
+                            }
+                        ],
+                        "spec_shortcode": "SSCMP",
+                        "collectionId": "2639",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "Central Board of Secondary Education",
+                        "tags": ""
+                    },
+                    {
+                        "coll_file_name": "cbse-verification",
+                        "modified_on": "2021-08-30",
+                        "collorgId": "000027",
+                        "created_on": "2021-01-26",
+                        "Apis": [
+                            {
+                                "modified_on": "2021-08-30",
+                                "apiEndpId": "CBSEVER",
+                                "spec_code": "CBSEVER",
+                                "apiName": "CBSE Verification APIs",
+                                "endpoint": "CBSEVER",
+                                "mostpopular": 99999,
+                                "created_on": "2021-01-26",
+                                "endpOrgId": "000027",
+                                "api_specification_id": "2693"
+                            }
+                        ],
+                        "spec_shortcode": "CBSEVER",
+                        "collectionId": "2693",
+                        "apiType": "Services",
+                        "publishedThrough": "",
+                        "collectionName": "CBSE Verification APIs",
+                        "tags": ""
+                    }
+                ],
+                "subdomainName": "cbse",
+                "orgState": "Delhi"
+            },
+            {
+                "objectID": "000053",
+                "_index": "apidirectory_v2",
+                "orgName": "Ministry of Petroleum and Natural Gas (HPCL)",
+                "PublishedOn": "16-01-2020 14:01",
+                "orgDescription": "eSubscription Voucher for LPG connections provided by HPCL (http://www.hindustanpetroleum.com/) are made available to citizens in their DigiLocker accounts.",
+                "ModifiedOn": "16-10-2024 17:28",
+                "link": "https://cf-media.api-setu.in/logo/issuers/000053.jpg",
+                "apiCount": 26,
+                "CollectionCount": 3,
+                "stateDepartment": "",
+                "priority": 17,
+                "orgId": "000053",
+                "tags": "Power",
+                "issuerId": "com.hindustanpetroleum",
+                "orgType": "Central Government",
+                "stateLogo": "https://cf-media.api-setu.in/logo/state/ALL.png",
+                "centralMinistry": "Ministry Of Petroleum and Natural Gas",
+                "categories": [
+                    {
+                        "catName": "Government & Public Sector"
+                    }
+                ],
+                "CreatedOn": "12-09-2016 18:30",
+                "Collections": [
+                    {
+                        "coll_file_name": "1716810143_UMANG-HPCL",
+                        "modified_on": "2024-05-27",
+                        "collorgId": "000053",
+                        "created_on": "2023-02-20",
+                        "Apis": [
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76341",
+                                "spec_code": null,
+                                "apiName": "Refill payment details using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/refpay",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76340",
+                                "spec_code": null,
+                                "apiName": "Show opt out option using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/optoption",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76339",
+                                "spec_code": null,
+                                "apiName": "Opt out subsidy using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/optout",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76338",
+                                "spec_code": null,
+                                "apiName": "Get Cash information using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/cash",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76337",
+                                "spec_code": null,
+                                "apiName": "Check the authentication after confirmation using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/afc",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76336",
+                                "spec_code": null,
+                                "apiName": "Get subsidy information using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/ws1/subsidy",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76335",
+                                "spec_code": null,
+                                "apiName": "Login using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/ws1/login",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76334",
+                                "spec_code": null,
+                                "apiName": "Get the refill history using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/ws1/refillhis",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76333",
+                                "spec_code": null,
+                                "apiName": " api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/ws1/auname",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76332",
+                                "spec_code": null,
+                                "apiName": "Validate the IFSC using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/ws1/kyc/ValidateIFSC",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76331",
+                                "spec_code": null,
+                                "apiName": "Register for a new connection using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/ws1/kyc/RegisterForNewConnection",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76330",
+                                "spec_code": null,
+                                "apiName": "Get the document list using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/ws1/kyc/GetDocumentList",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76329",
+                                "spec_code": null,
+                                "apiName": "Get the distributors list using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/ws1/kyc/getDistributors",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76328",
+                                "spec_code": null,
+                                "apiName": "Check registration status using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/ws1/kyc/CheckRegistrationStatus",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "76327",
+                                "spec_code": null,
+                                "apiName": "Check if duplicate using this web api",
+                                "endpoint": "/umang/apisetu/dept/hpclapi/ws1/kyc/CheckDuplicate",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-27",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            },
+                            {
+                                "modified_on": "2024-05-27",
+                                "apiEndpId": "74793",
+                                "spec_code": "kyc",
+                                "apiName": "HPCL API Setu KYC",
+                                "endpoint": "/kyc",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "14615"
+                            }
+                        ],
+                        "spec_shortcode": "Hindustan Petroleum Corporation Limited (HPCL), commonly referred to as HP, is an Indian oil and gas refining company headquartered in Mumbai.HPCL was incorporated in 1974.Since 2018.",
+                        "collectionId": "14615",
+                        "apiType": "Services",
+                        "publishedThrough": "UMANG",
+                        "collectionName": "Hindustan Petroleum Corporation Limited (HPCL) -UMANG",
+                        "tags": "UMANG"
+                    },
+                    {
+                        "coll_file_name": "1715602277_HPCL-APISetu",
+                        "modified_on": "2024-05-13",
+                        "collorgId": "000053",
+                        "created_on": "2024-05-13",
+                        "Apis": [
+                            {
+                                "modified_on": "2024-05-17",
+                                "apiEndpId": "74804",
+                                "spec_code": "refpay",
+                                "apiName": "refpay",
+                                "endpoint": "/refpay",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "67408"
+                            },
+                            {
+                                "modified_on": "2024-05-17",
+                                "apiEndpId": "74803",
+                                "spec_code": "optoption",
+                                "apiName": "optoption",
+                                "endpoint": "/optoption",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "67408"
+                            },
+                            {
+                                "modified_on": "2024-05-17",
+                                "apiEndpId": "74802",
+                                "spec_code": "optout",
+                                "apiName": "optout",
+                                "endpoint": "/optout",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "67408"
+                            },
+                            {
+                                "modified_on": "2024-05-17",
+                                "apiEndpId": "74801",
+                                "spec_code": "cash",
+                                "apiName": "cash",
+                                "endpoint": "/cash",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "67408"
+                            },
+                            {
+                                "modified_on": "2024-05-17",
+                                "apiEndpId": "74800",
+                                "spec_code": "afc",
+                                "apiName": "afc",
+                                "endpoint": "/afc",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "67408"
+                            },
+                            {
+                                "modified_on": "2024-05-17",
+                                "apiEndpId": "74799",
+                                "spec_code": "subsidy",
+                                "apiName": "subsidy",
+                                "endpoint": "/subsidy",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "67408"
+                            },
+                            {
+                                "modified_on": "2024-05-17",
+                                "apiEndpId": "74798",
+                                "spec_code": "login",
+                                "apiName": "login",
+                                "endpoint": "/login",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "67408"
+                            },
+                            {
+                                "modified_on": "2024-05-17",
+                                "apiEndpId": "74797",
+                                "spec_code": "refillhis",
+                                "apiName": "refillhis",
+                                "endpoint": "/refillhis",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "67408"
+                            },
+                            {
+                                "modified_on": "2024-05-17",
+                                "apiEndpId": "74796",
+                                "spec_code": "auname",
+                                "apiName": "auname",
+                                "endpoint": "/auname",
+                                "mostpopular": 99999,
+                                "created_on": "2024-05-13",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "67408"
+                            }
+                        ],
+                        "spec_shortcode": "HPCL Authentication APis",
+                        "collectionId": "67408",
+                        "apiType": "Services",
+                        "publishedThrough": "UMANG",
+                        "collectionName": "HPCL Authentication APis",
+                        "tags": ""
+                    },
+                    {
+                        "coll_file_name": "hindustanpetroleum",
+                        "modified_on": "2023-11-10",
+                        "collorgId": "000053",
+                        "created_on": "2023-11-10",
+                        "Apis": [
+                            {
+                                "modified_on": "2023-11-10",
+                                "apiEndpId": "59942",
+                                "spec_code": "LPGSV",
+                                "apiName": "LPG Subscription Voucher",
+                                "endpoint": "/certificate/v3/hindustanpetroleum/lpgsv",
+                                "mostpopular": 99999,
+                                "created_on": "2023-11-10",
+                                "endpOrgId": "000053",
+                                "api_specification_id": "48433",
+                                "available_docs": "85000000"
+                            }
+                        ],
+                        "spec_shortcode": "hindustanpetroleum",
+                        "collectionId": "48433",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "Ministry of Petroleum and Natural Gas (HPCL)",
+                        "tags": ""
+                    }
+                ],
+                "subdomainName": "hindustanpetroleum",
+                "orgState": "All States"
+            },
+            {
+                "objectID": "001925",
+                "_index": "apidirectory_v2",
+                "orgName": "UP State Board of High School and Intermediate Education",
+                "PublishedOn": "22-03-2022 16:14",
+                "orgDescription": "Board of High School and Intermediate Education, Prayagraj (https://upmsp.edu.in) has made available Class X & Class XII (2013-2023) results, as declared on http://upresults.nic.in, in DigiLocker, which can be pulled by students into their accounts.",
+                "ModifiedOn": "16-10-2024 17:28",
+                "link": "https://cf-media.api-setu.in/logo/issuers/001925.png",
+                "apiCount": 3,
+                "CollectionCount": 2,
+                "stateDepartment": "Higher Education Department, Uttar Pradesh",
+                "priority": 21,
+                "orgId": "001925",
+                "tags": "Education,Board",
+                "issuerId": "in.edu.upmsp",
+                "orgType": "State Government",
+                "stateLogo": "https://cf-media.api-setu.in/logo/state/UP.png",
+                "centralMinistry": "",
+                "categories": [
+                    {
+                        "catName": "Education & Learning"
+                    }
+                ],
+                "CreatedOn": "20-06-2018 17:25",
+                "Collections": [
+                    {
+                        "coll_file_name": "upmsp",
+                        "modified_on": "2024-05-08",
+                        "collorgId": "001925",
+                        "created_on": "2024-05-08",
+                        "Apis": [
+                            {
+                                "modified_on": "2024-05-08",
+                                "apiEndpId": "74235",
+                                "spec_code": "SSCER",
+                                "apiName": "Class X Marksheet",
+                                "endpoint": "/certificate/v3/upmsp/sscer",
+                                "mostpopular": 4,
+                                "created_on": "2024-05-08",
+                                "endpOrgId": "001925",
+                                "api_specification_id": "66876",
+                                "available_docs": "40000000"
+                            },
+                            {
+                                "modified_on": "2024-05-08",
+                                "apiEndpId": "74234",
+                                "spec_code": "HSCER",
+                                "apiName": "Class XII Marksheet",
+                                "endpoint": "/certificate/v3/upmsp/hscer",
+                                "mostpopular": 5,
+                                "created_on": "2024-05-08",
+                                "endpOrgId": "001925",
+                                "api_specification_id": "66876"
+                            }
+                        ],
+                        "spec_shortcode": "upmsp",
+                        "collectionId": "66876",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "UP State Board of High School and Intermediate Education",
+                        "tags": ""
+                    },
+                    {
+                        "coll_file_name": "upmsp-verification",
+                        "modified_on": "2021-08-30",
+                        "collorgId": "001925",
+                        "created_on": "2021-01-26",
+                        "Apis": [
+                            {
+                                "modified_on": "2021-08-30",
+                                "apiEndpId": "UPVER",
+                                "spec_code": "UPVER",
+                                "apiName": "UP State Board Verification APIs",
+                                "endpoint": "UPVER",
+                                "mostpopular": 99999,
+                                "created_on": "2021-01-26",
+                                "endpOrgId": "001925",
+                                "api_specification_id": "2675"
+                            }
+                        ],
+                        "spec_shortcode": "UPVER",
+                        "collectionId": "2675",
+                        "apiType": "Services",
+                        "publishedThrough": "",
+                        "collectionName": "UP State Board Verification APIs",
+                        "tags": ""
+                    }
+                ],
+                "subdomainName": "upmsp",
+                "orgState": "Uttar Pradesh"
+            },
+            {
+                "objectID": "001922",
+                "_index": "apidirectory_v2",
+                "orgName": "Jharkhand State Board (Jharkhand Academic Council)",
+                "PublishedOn": "09-03-2022 18:10",
+                "orgDescription": "Jharkhand Academic Council (JAC) is issuing marksheets & passing certificates through DigiLocker. These can be pulled by students into their DigiLocker accounts. Currently available from 2008-2021 for class Xth & XIIth.",
+                "ModifiedOn": "16-10-2024 17:28",
+                "link": "https://cf-media.api-setu.in/logo/issuers/001922.jpg",
+                "apiCount": 5,
+                "CollectionCount": 2,
+                "stateDepartment": "Higher and Techical Education Department",
+                "priority": 27,
+                "orgId": "001922",
+                "tags": "Education,Board",
+                "issuerId": "in.gov.jac",
+                "orgType": "State Government",
+                "stateLogo": "https://cf-media.api-setu.in/logo/state/JH.png",
+                "centralMinistry": "",
+                "categories": [
+                    {
+                        "catName": "Education & Learning"
+                    }
+                ],
+                "CreatedOn": "14-06-2018 15:32",
+                "Collections": [
+                    {
+                        "coll_file_name": "jac",
+                        "modified_on": "2021-12-10",
+                        "collorgId": "001922",
+                        "created_on": "2021-12-10",
+                        "Apis": [
+                            {
+                                "modified_on": "2021-12-10",
+                                "apiEndpId": "629",
+                                "spec_code": "SPCER",
+                                "apiName": "Class X Passing Certificate",
+                                "endpoint": "/certificate/v3/jac/spcer",
+                                "mostpopular": 99999,
+                                "created_on": "2021-12-10",
+                                "endpOrgId": "001922",
+                                "api_specification_id": "2845"
+                            },
+                            {
+                                "modified_on": "2021-12-10",
+                                "apiEndpId": "621",
+                                "spec_code": "HPCER",
+                                "apiName": "Class XII Passing Certificate",
+                                "endpoint": "/certificate/v3/jac/hpcer",
+                                "mostpopular": 99999,
+                                "created_on": "2021-12-10",
+                                "endpOrgId": "001922",
+                                "api_specification_id": "2845"
+                            },
+                            {
+                                "modified_on": "2022-07-29",
+                                "apiEndpId": "345",
+                                "spec_code": "SSCER",
+                                "apiName": "Class X Marksheet",
+                                "endpoint": "/certificate/v3/jac/sscer",
+                                "mostpopular": 4,
+                                "created_on": "2021-12-10",
+                                "endpOrgId": "001922",
+                                "api_specification_id": "2845"
+                            },
+                            {
+                                "modified_on": "2022-07-29",
+                                "apiEndpId": "240",
+                                "spec_code": "HSCER",
+                                "apiName": "Class XII Marksheet",
+                                "endpoint": "/certificate/v3/jac/hscer",
+                                "mostpopular": 5,
+                                "created_on": "2021-12-10",
+                                "endpOrgId": "001922",
+                                "api_specification_id": "2845",
+                                "available_docs": "2715961"
+                            }
+                        ],
+                        "spec_shortcode": "jac",
+                        "collectionId": "2845",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "Jharkhand State Board (Jharkhand Academic Council)",
+                        "tags": ""
+                    },
+                    {
+                        "coll_file_name": "jac-verification",
+                        "modified_on": "2021-08-30",
+                        "collorgId": "001922",
+                        "created_on": "2021-01-26",
+                        "Apis": [
+                            {
+                                "modified_on": "2021-08-30",
+                                "apiEndpId": "JACVER",
+                                "spec_code": "JACVER",
+                                "apiName": "Jharkhand State Board Verification APIs",
+                                "endpoint": "JACVER",
+                                "mostpopular": 99999,
+                                "created_on": "2021-01-26",
+                                "endpOrgId": "001922",
+                                "api_specification_id": "2688"
+                            }
+                        ],
+                        "spec_shortcode": "JACVER",
+                        "collectionId": "2688",
+                        "apiType": "Services",
+                        "publishedThrough": "",
+                        "collectionName": "Jharkhand State Board Verification APIs",
+                        "tags": ""
+                    }
+                ],
+                "subdomainName": "jac",
+                "orgState": "Jharkhand"
+            },
+            {
+                "objectID": "001926",
+                "_index": "apidirectory_v2",
+                "orgName": "Chhattisgarh State Board of Secondary Education",
+                "PublishedOn": "22-03-2022 16:06",
+                "orgDescription": "CBBSE (http://cgbse.nic.in) is issuing marksheets  through DigiLocker. These can be pulled by students into their DigiLocker accounts. Currently available -2001,2003 - 2017 Class X and 2001 - 2017 Class XII .",
+                "ModifiedOn": "16-10-2024 17:28",
+                "link": "https://cf-media.api-setu.in/logo/issuers/001926.png",
+                "apiCount": 3,
+                "CollectionCount": 2,
+                "stateDepartment": "Higher Education Department",
+                "priority": 29,
+                "orgId": "001926",
+                "tags": "Education,Board",
+                "issuerId": "in.gov.cgbse",
+                "orgType": "State Government",
+                "stateLogo": "https://cf-media.api-setu.in/logo/state/CG.png",
+                "centralMinistry": "",
+                "categories": [
+                    {
+                        "catName": "Education & Learning"
+                    }
+                ],
+                "CreatedOn": "21-06-2018 10:15",
+                "Collections": [
+                    {
+                        "coll_file_name": "cgbse",
+                        "modified_on": "2023-02-01",
+                        "collorgId": "001926",
+                        "created_on": "2023-02-01",
+                        "Apis": [
+                            {
+                                "modified_on": "2023-02-01",
+                                "apiEndpId": "15663",
+                                "spec_code": "SSCER",
+                                "apiName": "Class X Marksheet",
+                                "endpoint": "/certificate/v3/cgbse/sscer",
+                                "mostpopular": 4,
+                                "created_on": "2023-02-01",
+                                "endpOrgId": "001926",
+                                "api_specification_id": "13576",
+                                "available_docs": "22158564"
+                            },
+                            {
+                                "modified_on": "2023-02-01",
+                                "apiEndpId": "15662",
+                                "spec_code": "HSCER",
+                                "apiName": "Class XII Marksheet",
+                                "endpoint": "/certificate/v3/cgbse/hscer",
+                                "mostpopular": 5,
+                                "created_on": "2023-02-01",
+                                "endpOrgId": "001926",
+                                "api_specification_id": "13576"
+                            }
+                        ],
+                        "spec_shortcode": "cgbse",
+                        "collectionId": "13576",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "Chhattisgarh State Board of Secondary Education",
+                        "tags": ""
+                    },
+                    {
+                        "coll_file_name": "cgbse-verification",
+                        "modified_on": "2021-08-30",
+                        "collorgId": "001926",
+                        "created_on": "2021-01-26",
+                        "Apis": [
+                            {
+                                "modified_on": "2021-08-30",
+                                "apiEndpId": "CHGVER",
+                                "spec_code": "CHGVER",
+                                "apiName": "Chhattisgarh State Board Verification APIs",
+                                "endpoint": "CHGVER",
+                                "mostpopular": 99999,
+                                "created_on": "2021-01-26",
+                                "endpOrgId": "001926",
+                                "api_specification_id": "2692"
+                            }
+                        ],
+                        "spec_shortcode": "CHGVER",
+                        "collectionId": "2692",
+                        "apiType": "Services",
+                        "publishedThrough": "",
+                        "collectionName": "Chhattisgarh State Board Verification APIs",
+                        "tags": ""
+                    }
+                ],
+                "subdomainName": "cgbse",
+                "orgState": "Chhattisgarh"
+            },
+            {
+                "objectID": "000093",
+                "_index": "apidirectory_v2",
+                "orgName": "Bihar State Board of School Examination",
+                "PublishedOn": "22-03-2022 16:23",
+                "orgDescription": "Bihar School Examination Board, Patna (http://biharboardonline.bihar.gov.in) has made available Class X (2018 and 2019) marksheets and provisional certificates, which can be pulled by students into their accounts. ",
+                "ModifiedOn": "16-10-2024 17:28",
+                "link": "https://cf-media.api-setu.in/logo/issuers/000093.png",
+                "apiCount": 3,
+                "CollectionCount": 2,
+                "stateDepartment": "Education Department",
+                "priority": 35,
+                "orgId": "000093",
+                "tags": "Education,Board",
+                "issuerId": "in.ac.biharboard",
+                "orgType": "State Government",
+                "stateLogo": "https://cf-media.api-setu.in/logo/state/BR.png",
+                "centralMinistry": "",
+                "categories": [
+                    {
+                        "catName": "Education & Learning"
+                    }
+                ],
+                "CreatedOn": "01-11-2016 15:34",
+                "Collections": [
+                    {
+                        "coll_file_name": "biharboard",
+                        "modified_on": "2021-12-10",
+                        "collorgId": "000093",
+                        "created_on": "2021-12-10",
+                        "Apis": [
+                            {
+                                "modified_on": "2021-12-10",
+                                "apiEndpId": "724",
+                                "spec_code": "SVCER",
+                                "apiName": "Class X Provisional Certificate",
+                                "endpoint": "/certificate/v3/biharboard/svcer",
+                                "mostpopular": 99999,
+                                "created_on": "2021-12-10",
+                                "endpOrgId": "000093",
+                                "api_specification_id": "2810"
+                            },
+                            {
+                                "modified_on": "2022-07-29",
+                                "apiEndpId": "337",
+                                "spec_code": "SSCER",
+                                "apiName": "Class X Marksheet",
+                                "endpoint": "/certificate/v3/biharboard/sscer",
+                                "mostpopular": 4,
+                                "created_on": "2021-12-10",
+                                "endpOrgId": "000093",
+                                "api_specification_id": "2810",
+                                "available_docs": "3261769"
+                            }
+                        ],
+                        "spec_shortcode": "biharboard",
+                        "collectionId": "2810",
+                        "apiType": "Docs",
+                        "publishedThrough": "DigiLocker",
+                        "collectionName": "Bihar State Board of School Examination",
+                        "tags": ""
+                    },
+                    {
+                        "coll_file_name": "biharboard-verification",
+                        "modified_on": "2021-08-30",
+                        "collorgId": "000093",
+                        "created_on": "2021-01-26",
+                        "Apis": [
+                            {
+                                "modified_on": "2021-08-30",
+                                "apiEndpId": "BRVER",
+                                "spec_code": "BRVER",
+                                "apiName": "Bihar State Board Verification APIs",
+                                "endpoint": "BRVER",
+                                "mostpopular": 99999,
+                                "created_on": "2021-01-26",
+                                "endpOrgId": "000093",
+                                "api_specification_id": "2695"
+                            }
+                        ],
+                        "spec_shortcode": "BRVER",
+                        "collectionId": "2695",
+                        "apiType": "Services",
+                        "publishedThrough": "",
+                        "collectionName": "Bihar State Board Verification APIs",
+                        "tags": ""
+                    }
+                ],
+                "subdomainName": "biharboard",
+                "orgState": "Bihar"
+            }
+        ],
+        "index": "apidirectory_v2_priority_asc",
+        "params": "facets=apiType&facetFilters=apiType%3AServices&maxValuesPerFacet=5&hitsPerPage=7"
+    }
+}
