@@ -2,7 +2,7 @@ async function fetchPayUPaymentBYPaymentID(paymentId) {
     return new Promise((resolve, reject) => {
       // paymentId = “ORDAe2nqm2myw38”;
       let merchant_key = (NODE_ENV == “production”) ? “eGS3ak” : “Mcllbr”
-      let payu_salt = (NODE_ENV == “production”) ? “t5nmSj1ZiVSDnHfPy4Rm0KE38htq4s0K” : “qjBUHawJ”
+      let payu_salt = (NODE_ENV == “production”) ? 
       let url = (NODE_ENV == “production”) ? “https://info.payu.in/merchant/postservice?form=2” : “https://test.payu.in/merchant/postservice.php?form=2”
       let hash = sha512(merchant_key + “|verify_payment|” + paymentId + “|” + payu_salt);
       var options = {

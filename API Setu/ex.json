@@ -1,0 +1,2854 @@
+{
+    "results": [
+        {
+            "appliedRules": [],
+            "exhaustiveNbHits": true,
+            "exhaustiveFacetsCount": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "hitsPerPage": 21,
+            "processingTimeMS": 15,
+            "nbHits": 205,
+            "page": 0,
+            "nbPages": 10,
+            "query": "",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "orgId",
+                            "orgName",
+                            "orgState",
+                            "categories.catId",
+                            "categories.subCatId",
+                            "priority",
+                            "docTypes.mostPopular",
+                            "docTypes.newindg",
+                            "docTypes.trending",
+                            "docTypes.docDescription",
+                            "docTypes.docTypeId"
+                        ]
+                    },
+                    "values": {
+                        "orgId": {
+                            "sortRemainingBy": "count"
+                        },
+                        "orgName": {
+                            "sortRemainingBy": "count"
+                        },
+                        "orgState": {
+                            "sortRemainingBy": "count"
+                        },
+                        "categories.catId": {
+                            "sortRemainingBy": "count"
+                        },
+                        "categories.subCatId": {
+                            "sortRemainingBy": "count"
+                        },
+                        "priority": {
+                            "sortRemainingBy": "count"
+                        },
+                        "docTypes.mostPopular": {
+                            "sortRemainingBy": "count"
+                        },
+                        "docTypes.newindg": {
+                            "sortRemainingBy": "count"
+                        },
+                        "docTypes.trending": {
+                            "sortRemainingBy": "count"
+                        },
+                        "docTypes.docDescription": {
+                            "sortRemainingBy": "count"
+                        },
+                        "docTypes.docTypeId": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "facets": {
+                "orgState": {
+                    "Maharashtra": 205
+                }
+            },
+            "facets_stats": {},
+            "hits": [
+                {
+                    "objectID": "005537",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Insurance Endorsements",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/INEND.png",
+                            "priority": "9999",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "005537",
+                            "enabled": "Y",
+                            "partnerServiceId": "4754",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "INEND",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PolicyNumber",
+                                        "label": "PolicyNumber",
+                                        "required": "1",
+                                        "example": "21-23-0004866-00",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "0",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "6e3cb44af7166f436d998c02786c87aa8290c5e05db35e2565940bb896550488"
+                        },
+                        {
+                            "docDescription": "Policy Document",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/PODOC.png",
+                            "priority": "9999",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "005537",
+                            "enabled": "Y",
+                            "partnerServiceId": "4754",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "PODOC",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PolicyNumber",
+                                        "label": "PolicyNumber",
+                                        "required": "1",
+                                        "example": "21-23-0004866-00",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "0",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "b1a77f30332dba3375f031e2e4654d11452e8a8f86942fdd6d82d33222564358"
+                        }
+                    ],
+                    "issuerId": "com.healthinsurance.adityabirla",
+                    "orgName": "Aditya Birla Health Insurance Co. Limited",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/005537.png",
+                    "description": "Aditya Birla Health Insurance Co. Limited is into Health insurance industry We want to register as both Issuer and Requestor , Issuer for sharing policy document to customer at the time of issuing of policy. And  also documents like renewal schedule at the time of renewal and renewal notice will be triggered for intimation of renewal of  policy, As a requestor we will authentic customer with the KYC process through Digi locker.",
+                    "categories": [
+                        {
+                            "catId": "993"
+                        },
+                        {
+                            "catId": "1"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "005537",
+                    "subdomainName": "adityabirla",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "002315",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Insurance - Life",
+                            "trending": 0,
+                            "searchKeywords": "Bajaj Allianz Life Insurance Company Ltd, Maharashtra, Insurance Policy - Life, Bajaj, Allianz, Life, Insurance, Company, Ltd, Insurance, Policy, Life",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/LICER.png",
+                            "priority": "69",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "002315",
+                            "enabled": "Y",
+                            "partnerServiceId": "671",
+                            "supportedFormats": [
+                                "pdf"
+                            ],
+                            "docTypeId": "LICER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PolicyNumber",
+                                        "label": "PolicyNumber",
+                                        "required": "1",
+                                        "example": "10 Digit Policy Number eg 0355555111",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "d577b61881b3b3f1fbcaba8aa0569ccc1e9fee4de6eee1a7de6b1bcbb12873b2"
+                        }
+                    ],
+                    "issuerId": "com.bajajallianzlife",
+                    "orgName": "Bajaj Allianz Life Insurance Company Ltd",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/002315.jpg",
+                    "description": "Policy Documents issued by Bajaj Allianz Life Insurance Co.Ltd (https://www.bajajallianzlife.com) can be pulled in user's DigiLocker account",
+                    "categories": [
+                        {
+                            "catId": "993"
+                        },
+                        {
+                            "catId": "1"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "002315",
+                    "subdomainName": "bajajallianzlife",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "003839",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Class X / Matriculation Passing Certificate",
+                            "trending": 0,
+                            "searchKeywords": "BSEM 10 Class Certificate, Board of Secondary Education Marathwada",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/SPCER.png",
+                            "priority": "8",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "003839",
+                            "enabled": "Y",
+                            "partnerServiceId": "2216",
+                            "supportedFormats": [
+                                "pdf"
+                            ],
+                            "docTypeId": "SPCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "roll_number",
+                                        "label": "Roll number",
+                                        "required": "1",
+                                        "example": "12345678",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "year",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2015",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "0",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "a1a82fbcdf9ac5cff99ee533d5bdc8c25d59c2f18e84903ee8ceb9718841ce8c"
+                        },
+                        {
+                            "docDescription": "Class X Marksheet",
+                            "trending": 0,
+                            "searchKeywords": "BSEM 10 Class Marksheet, Board of Secondary Education Marathwada",
+                            "mostpopular_banner": "https://cf-media.api-setu.in/logo/doctypes/SSC-3.jpg",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/SSCER.png",
+                            "priority": "4",
+                            "mostPopular": "4",
+                            "newindg": 0,
+                            "orgId": "003839",
+                            "enabled": "Y",
+                            "partnerServiceId": "1778",
+                            "supportedFormats": [
+                                "pdf"
+                            ],
+                            "docTypeId": "SSCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "roll_number",
+                                        "label": "Roll number",
+                                        "required": "1",
+                                        "example": "123456789",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "year",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2015",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "0",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "08853f3518ffaee205c337876b0c59bd7fca95d47cb2095d2801141d1ef3a311"
+                        },
+                        {
+                            "docDescription": "Class XII Marksheet",
+                            "trending": 0,
+                            "searchKeywords": "BSEM 12 Class Marksheet, Board of Secondary Education Marathwada",
+                            "mostpopular_banner": "https://cf-media.api-setu.in/logo/doctypes/HSC-3.jpg",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/HSCER.png",
+                            "priority": "5",
+                            "mostPopular": "5",
+                            "newindg": 0,
+                            "orgId": "003839",
+                            "enabled": "Y",
+                            "partnerServiceId": "2215",
+                            "supportedFormats": [
+                                "pdf"
+                            ],
+                            "docTypeId": "HSCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "roll_number",
+                                        "label": "Roll number",
+                                        "required": "1",
+                                        "example": "12345678",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "year",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2015",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "0",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "b37c81492e271e3ae0bb8d79265c8b294902501c11956e1d205a4411016a6f37"
+                        },
+                        {
+                            "docDescription": "Class XII Passing Certificate",
+                            "trending": 0,
+                            "searchKeywords": "BSEM 12 Class Certificate, Board of Secondary Education Marathwada",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/HPCER.png",
+                            "priority": "9",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "003839",
+                            "enabled": "Y",
+                            "partnerServiceId": "2217",
+                            "supportedFormats": [
+                                "pdf"
+                            ],
+                            "docTypeId": "HPCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "roll_number",
+                                        "label": "Roll number",
+                                        "required": "1",
+                                        "example": "12345678",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "year",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2015",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "0",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "0148b24fb7b6f96f07f04c930bdb74ecd5d40d35e3ecbedb945c581dad25a0eb"
+                        }
+                    ],
+                    "issuerId": "net.in.bsem",
+                    "orgName": "Board of Secondary Education Marathwada",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/003839.png",
+                    "description": "We are Autonomous Board issue 10TH And 12 Certificate we are registered under Government of Maharashtra and Government of India running under Education Act Government of India Registered with Ministry of MSME and Registered Trade Mark Government of India Member of CPD Group London Member Quality council of India",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "003839",
+                    "subdomainName": "bsem",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "007314",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Degree Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Dr. Babasaheb Ambedkar Marathwada University",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGCER.png",
+                            "priority": "178",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "007314",
+                            "enabled": "Y",
+                            "partnerServiceId": "1847",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "REGN NO",
+                                        "required": "1",
+                                        "example": "8/300001",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "YEAR",
+                                        "required": "1",
+                                        "example": "2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",
+                                        "dd_value": "2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "1"
+                                }
+                            },
+                            "key": "449f8caf0fcd56bc77f5228022c3140884c2859d16bd76596c140ca00fbd58e1"
+                        }
+                    ],
+                    "issuerId": "in.ac.bamu",
+                    "orgName": "Dr. Babasaheb Ambedkar Marathwada University, Chhatrapati Sambhajinagar",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/007314.png",
+                    "description": "Dr. Babasaheb Ambedkar Marathwada University, Chhatrapati Sambhajinagar is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts.\nDegree Certificates-2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023\nDegree Marksheets-2017,2018,2019,2020,2021,2022,2023,2024\n",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "007314",
+                    "subdomainName": "bamu",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "017676",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Degree Certificate",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGCER.png",
+                            "priority": "178",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "017676",
+                            "enabled": "Y",
+                            "partnerServiceId": "2990",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "Registration No.",
+                                        "required": "1",
+                                        "example": "AB-XYZ",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "MONTH",
+                                        "label": "Month",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": "April,June"
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2021",
+                                        "dd_value": "2021"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "0015e4fbb6fecae6c30b4e4fc3349d0e6b67dc04c3b991e2968ef6235e5cf55a"
+                        },
+                        {
+                            "docDescription": "Degree/ Diploma Marksheet",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGMST.PNG",
+                            "priority": "108",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "017676",
+                            "enabled": "Y",
+                            "partnerServiceId": "4671",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGMST",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "Roll No",
+                                        "required": "1",
+                                        "example": "20190017XX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "Registration No",
+                                        "required": "1",
+                                        "example": "34069XX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "SEM",
+                                        "label": "Semester",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": "I,II,III,IV,V,VI,VII,VIII,IX,X"
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2021",
+                                        "dd_value": "2021"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "7c7e712ce1574c39421dc800109cc8a3bdaa9d1bf599492c54d7ee3b4dc9cf83"
+                        }
+                    ],
+                    "issuerId": "in.ac.hbsu",
+                    "orgName": "Dr. Homi Bhabha State University",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/017676.png",
+                    "description": "Dr. Homi Bhabha State University is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts.\nDegree Marksheets-2021\nDegree Certificates-2021\n",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "017676",
+                    "subdomainName": "hbsu",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "003578",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Degree Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGCER.png",
+                            "priority": "178",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "003578",
+                            "enabled": "Y",
+                            "partnerServiceId": "1924",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "Roll No.",
+                                        "required": "1",
+                                        "example": "12345",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "Registration No.",
+                                        "required": "1",
+                                        "example": "XYZ-123",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022",
+                                        "dd_value": "2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "1"
+                                }
+                            },
+                            "key": "b06f770c140e994cfa77a8c581c8a29d006f1e18db7b49b9af740f91d0c4473d"
+                        }
+                    ],
+                    "issuerId": "in.ac.pdkv",
+                    "orgName": "Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/003578.png",
+                    "description": "Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola is issuing their Digital awards for the following years,through DigiLocker. These can be pulled by students into their DigiLocker accounts.\nDegree Certificates-2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022\n",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "003578",
+                    "subdomainName": "pdkv",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "013054",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Ration Card",
+                            "trending": 0,
+                            "searchKeywords": "Ration Card, PDS, MH PDS, MH Ration Card, Maharashtra Ration Card, Maharashtra PDS, Food and Civil Supplies Department",
+                            "mostpopular_banner": "https://cf-media.api-setu.in/logo/doctypes/Ration-Card-3.jpg",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/RATCR.png",
+                            "priority": "7",
+                            "mostPopular": "7",
+                            "newindg": 0,
+                            "orgId": "013054",
+                            "enabled": "Y",
+                            "partnerServiceId": "2573",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "RATCR",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "fatherName",
+                                        "label": "Father Name",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "hofName",
+                                        "label": "Head of Family Name",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "yob",
+                                        "label": "Year of Birth",
+                                        "required": "1",
+                                        "example": "YYYY",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "aadhaarLastFourNo",
+                                        "label": "Aadhaar Last 4 Digit",
+                                        "required": "1",
+                                        "example": "0000",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "rationCardNo",
+                                        "label": "Ration Card No.",
+                                        "required": "1",
+                                        "example": "000000000000",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "districtCode",
+                                        "label": "Districts",
+                                        "required": "1",
+                                        "example": "NANDURBAR,DHULE,JALGAON,BULDANA,AKOLA,WASHIM,AMRAVATI,WARDHA,NAGPUR,BHANDARA,GONDIYA,GADCHIROLI,CHAN",
+                                        "dd_value": "NANDURBAR,DHULE,JALGAON,BULDANA,AKOLA,WASHIM,AMRAVATI,WARDHA,NAGPUR,BHANDARA,GONDIYA,GADCHIROLI,CHANDRAPUR,YAVATMAL,NANDED,HINGOLI,PARBHANI,JALNA,AURANGABAD,NASHIK,THANE,MUMBAI SUBURBAN,MUMBAI,RAIGARH,PUNE,AHMADNAGAR,BID,LATUR,OSMANABAD,SOLAPUR,SATARA,RATNAGIRI,SINDHUDURG,KOLHAPUR,SANGLI,PAREL ZONE-A,ANDHERI ZONE-D,WADALA ZONE-E,KANDIVALI ZONE-G,THANE ZONE-F,PALGHAR"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "1",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "e8881d1ca9890886e3441e304dd1761de247630c7d9d424dc388907fb733a0e2"
+                        }
+                    ],
+                    "issuerId": "in.gov.mahafood",
+                    "orgName": "Food and Civil Supplies Department, Maharashtra",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/013054.png",
+                    "description": "The department of Food and Civil Supplies came into existence as a separate unit in the State from March, 1965. It was a part of Agriculture, Food and Cooperation Department prior to this arrangement. The organization of Weights and Measures separated from Industry, Energy and Labour Department and merged with the department from December, 1977. The department mainly deals with the demand and supply of various essential commodities in the open market as well as Public Distribution System. The basic responsibility of the department is to enforce of various control orders passed in respect of the Essential Commodities Act, 1955 for price stabilization and matters pertaining to weights and measures.",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "30"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "013054",
+                    "subdomainName": "mahafood",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "004344",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Degree Certificate",
+                            "trending": 0,
+                            "searchKeywords": "IIPS, Degree",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGCER.png",
+                            "priority": "178",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "004344",
+                            "enabled": "Y",
+                            "partnerServiceId": "1593",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "Registration Number",
+                                        "required": "1",
+                                        "example": "AB-3214",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2020,2021,2022,2023",
+                                        "dd_value": "2020,2021,2022,2023"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "5e58b42bfb39746be3520fa388a561d857e142f5fae2eabee023e290d3b848c2"
+                        }
+                    ],
+                    "issuerId": "in.ac.iipsindia",
+                    "orgName": "International Institute for Population Sciences, Mumbai",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/004344.png",
+                    "description": "International Institute for Population Sciences, Mumbai is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts.\n                Degree - 2020,2021,2022,2023 \n                Marksheet - NA \n                Diploma - NA \n                Transcript - NA",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "004344",
+                    "subdomainName": "iipsindia",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "005497",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Degree Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Kavi Kulguru Kalidas Sanskrit Vishwavidyalaya, Ramtek",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGCER.png",
+                            "priority": "178",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "005497",
+                            "enabled": "Y",
+                            "partnerServiceId": "1582",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "ROLL NO",
+                                        "required": "1",
+                                        "example": "130001",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "REGN NO",
+                                        "required": "1",
+                                        "example": "8/300001",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2019,2020",
+                                        "dd_value": "2019,2020"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "1"
+                                }
+                            },
+                            "key": "6115692236b1c04b1bef94b3d812f65f2e9a82253d47f43916ea1f9b557c292b"
+                        },
+                        {
+                            "docDescription": "Diploma Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Kavi Kulguru Kalidas Sanskrit Vishwavidyalaya, Ramtek",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DIPCR.png",
+                            "priority": "112",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "005497",
+                            "enabled": "Y",
+                            "partnerServiceId": "1582",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DIPCR",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "ROLL NO",
+                                        "required": "1",
+                                        "example": "130001",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "REGN NO",
+                                        "required": "1",
+                                        "example": "8/300001",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2019,2020",
+                                        "dd_value": "2019,2020"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "1"
+                                }
+                            },
+                            "key": "5c331da7ef5f5c28db91ae4927706cbce3753dd1ec3a1d45c7daeeb22e6d42f7"
+                        }
+                    ],
+                    "issuerId": "ac.digitaluniversity.kksanskrituni",
+                    "orgName": "Kavi Kulguru Kalidas Sanskrit Vishwavidyalaya, Ramtek",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/005497.png",
+                    "description": "Kavi Kulguru Kalidas Sanskrit Vishwavidyalaya, Ramtek is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts.\nDegree Certificates-2019,2020\nDegree Marksheets-2014\n",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "005497",
+                    "subdomainName": "kksanskrituni",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "015830",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Insurance - Health",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/HLIPC.png",
+                            "priority": "83",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "015830",
+                            "enabled": "Y",
+                            "partnerServiceId": "3879",
+                            "supportedFormats": [
+                                "pdf"
+                            ],
+                            "docTypeId": "HLIPC",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PolicyNumber",
+                                        "label": "Policy Number",
+                                        "required": "1",
+                                        "example": "202610000022100002901000",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "DateOfBirth",
+                                        "label": "Date of Birth",
+                                        "required": "1",
+                                        "example": "23/01/2023",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "0",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "996eafb8dcb5a939f84a5f9bf1d5b137fec1b0657069aeb01a7f22f5dd66ad0a"
+                        },
+                        {
+                            "docDescription": "Insurance Policy - Car",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/CRIPC.png",
+                            "priority": "98",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "015830",
+                            "enabled": "Y",
+                            "partnerServiceId": "3880",
+                            "supportedFormats": [
+                                "pdf"
+                            ],
+                            "docTypeId": "CRIPC",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PolicyNumber",
+                                        "label": "Policy Number",
+                                        "required": "1",
+                                        "example": "202610000022100002901000",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RegistrationNumber",
+                                        "label": "Registration Number",
+                                        "required": "1",
+                                        "example": "MH-01-AB-1234 . For new vehicle ,please mention NEW.",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "ChaissNumber",
+                                        "label": "Chassis Number",
+                                        "required": "1",
+                                        "example": "Last 5 digits of chaiss number. eg- 42620",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "0",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "591fe71d0657b449aa0ded82c90d59aecb12bcf379ec6c20d950106d31b283ea"
+                        },
+                        {
+                            "docDescription": "Insurance Policy - Commercial Vehicle",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/CVIPC.png",
+                            "priority": "97",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "015830",
+                            "enabled": "Y",
+                            "partnerServiceId": "3881",
+                            "supportedFormats": [
+                                "pdf"
+                            ],
+                            "docTypeId": "CVIPC",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PolicyNumber",
+                                        "label": "Policy Number",
+                                        "required": "1",
+                                        "example": "202610000022100002901000",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RegistrationNumber",
+                                        "label": "Registration Number",
+                                        "required": "1",
+                                        "example": "MH-01-AB-1234 . For new vehicle ,please mention NEW.",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "ChaissNumber",
+                                        "label": "Chassis Number",
+                                        "required": "1",
+                                        "example": "last 5 digits of chaiss number. eg- 42620",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "0",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "fbb74fbc8fa4470180cac58b668743ba3f5a89a581997a4298b46eb4eb6b08e8"
+                        },
+                        {
+                            "docDescription": "Insurance Policy - Two Wheeler",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/TWIPC.png",
+                            "priority": "99",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "015830",
+                            "enabled": "Y",
+                            "partnerServiceId": "3708",
+                            "supportedFormats": [
+                                "pdf"
+                            ],
+                            "docTypeId": "TWIPC",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PolicyNumber",
+                                        "label": "Policy Number",
+                                        "required": "1",
+                                        "example": "202610000022100002901000",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RegistrationNumber",
+                                        "label": "Registration Number",
+                                        "required": "1",
+                                        "example": "MH-01-AB-1234 . For new vehicle ,please mention NEW.",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "ChaissNumber",
+                                        "label": "Chassis Number",
+                                        "required": "1",
+                                        "example": "Last 5 digits of chaiss number. eg- 42620",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "0",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "6988e8e85cbd851fc824922589a369ea970f1f5e6f275f0b1393a15f5f8e948f"
+                        },
+                        {
+                            "docDescription": "Insurance Policy- Personal Accident",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/PAIPC.png",
+                            "priority": "9999",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "015830",
+                            "enabled": "Y",
+                            "partnerServiceId": "3883",
+                            "supportedFormats": [
+                                "pdf"
+                            ],
+                            "docTypeId": "PAIPC",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PolicyNumber",
+                                        "label": "Policy Number",
+                                        "required": "1",
+                                        "example": "202610000022100002901000",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PinCode",
+                                        "label": "Pin Code",
+                                        "required": "1",
+                                        "example": "400001",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "0",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "d3e04a74066924cf6c4c71fc2dbec818a4d3fcd069f56a5d2d8dd4de95361871"
+                        }
+                    ],
+                    "issuerId": "in.libertyinsurance",
+                    "orgName": "Liberty General Insurance",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/015830.png",
+                    "description": "Your insurance Policy/ Policies issued by Liberty General Insurance Limited (https://www.libertyinsurance.in/) is/are now available to be stored in electronic format on this mobile app.",
+                    "categories": [
+                        {
+                            "catId": "993"
+                        },
+                        {
+                            "catId": "1"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "015830",
+                    "subdomainName": "libertyinsurance",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "003184",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Doctor/ Pharmacist Registration Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Maharashtra Council of Indian Medicine, Maharashtra, Pharmacist Registration Certificate, Maharashtra, Council, Indian, Medicine, Pharmacist, Registration, Certificate",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/PHCER.png",
+                            "priority": "0",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "003184",
+                            "enabled": "Y",
+                            "partnerServiceId": "2706",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "PHCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGN_NO",
+                                        "label": "Registration No",
+                                        "required": "1",
+                                        "example": "I-99-A",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "1",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "4ef4f7d9dfba5c9aa3cfe47bfb1daa017b83b02714867a8e96b2ba325d0108e1"
+                        },
+                        {
+                            "docDescription": "ID Card",
+                            "trending": 0,
+                            "searchKeywords": "Maharashtra Council of Indian Medicine, Maharashtra, ID Card, Maharashtra, Council, Indian, Medicine, Card",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/GOVID.png",
+                            "priority": "171",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "003184",
+                            "enabled": "Y",
+                            "partnerServiceId": "2706",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "GOVID",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGN_NO",
+                                        "label": "Registration No",
+                                        "required": "1",
+                                        "example": "I-99-A",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "1",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "fcec3fe261b4c345d1b8cc1063c6a1de0c59e707ab9962f8e41e657bfae03c31"
+                        }
+                    ],
+                    "issuerId": "in.org.mcimindia",
+                    "orgName": "Maharashtra Council of Indian Medicine",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/003184.jpg",
+                    "description": "Maharashtra Council of Indian Medicine is a statutory body charged with the responsibility of regulate the qualification and to provide forth registration of practitioners of the Ayurvedic, 2[Siddha] and Unani Systems of Medicine, with a view to encourage the study and spread of such systems, and to make certain provisions relating to medical practitioners generally, in the State of Maharashtra; and for that purpose to consolidate and amend the law relating to it.",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "003184",
+                    "subdomainName": "mcimindia",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "004350",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Degree/ Diploma Marksheet",
+                            "trending": 0,
+                            "searchKeywords": "Maharashtra National Law University, Mumbai",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGMST.PNG",
+                            "priority": "108",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "004350",
+                            "enabled": "Y",
+                            "partnerServiceId": "1283",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGMST",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "ROLL NO",
+                                        "required": "1",
+                                        "example": "130001",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "YEAR",
+                                        "required": "1",
+                                        "example": "2015,2016,2017,2018,2019,2020,2021",
+                                        "dd_value": "2015,2016,2017,2018,2019,2020,2021"
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "SEM",
+                                        "label": "SEMESTER",
+                                        "required": "1",
+                                        "example": "I,II,III,IV,V,VI,VII,VIII,IX,X",
+                                        "dd_value": "I,II,III,IV,V,VI,VII,VIII,IX,X"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "1"
+                                }
+                            },
+                            "key": "b9435e1f03247ff139f9b4a5477ea29f28e8709dd121a5fe322c08ce9a6d4178"
+                        }
+                    ],
+                    "issuerId": "in.edu.mnlumumbai",
+                    "orgName": "Maharashtra National Law University, Mumbai",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/004350.png",
+                    "description": "Maharashtra National Law University, Mumbai is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts \n                Degree - NA \n                Marksheet - 2015,2016,2017,2018,2019,2020 \n                Diploma -  NA \n                Transcript - NA",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "004350",
+                    "subdomainName": "mnlumumbai",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "000098",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Class X / Matriculation Passing Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Maharashtra State Board of Secondary and Higher Secondary Education, Maharashtra, Class X Passing Certificate, Maharashtra, State, Board, Secondary, and, Higher, Secondary, Education, Class, Passing, Certificate",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/SPCER.png",
+                            "priority": "8",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "000098",
+                            "enabled": "Y",
+                            "partnerServiceId": "44",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "SPCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "year",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2015",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "rollnumber",
+                                        "label": "Seat No",
+                                        "required": "1",
+                                        "example": "C183286",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "totalmarks",
+                                        "label": "Total Marks Obtained",
+                                        "required": "1",
+                                        "example": "517",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "exsession",
+                                        "label": "Exam Session",
+                                        "required": "1",
+                                        "example": "MAR,OCT",
+                                        "dd_value": "MAR,OCT"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "09e21dfc29e79baadaea3c00375aeaf634851bc848e68ebde07ddee502862da1"
+                        },
+                        {
+                            "docDescription": "Class X Marksheet",
+                            "trending": 0,
+                            "searchKeywords": "Maharashtra State Board of Secondary and Higher Secondary Education, Maharashtra, Class X Marksheet, Maharashtra, State, Board, Secondary, and, Higher, Secondary, Education, Class, Marksheet",
+                            "mostpopular_banner": "https://cf-media.api-setu.in/logo/doctypes/SSC-3.jpg",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/SSCER.png",
+                            "priority": "4",
+                            "mostPopular": "4",
+                            "newindg": 0,
+                            "orgId": "000098",
+                            "enabled": "Y",
+                            "partnerServiceId": "45",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "SSCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "year",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2015",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "rollnumber",
+                                        "label": "Seat No",
+                                        "required": "1",
+                                        "example": "C183286",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "totalmarks",
+                                        "label": "Total Marks Obtained",
+                                        "required": "1",
+                                        "example": "517",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "exsession",
+                                        "label": "Exam Session",
+                                        "required": "1",
+                                        "example": "MAR,OCT",
+                                        "dd_value": "MAR,OCT"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "887b5c8a19f4d96d0a8fa365e37ef66b00b1332961dfdeb4ffa110a6b39ea642"
+                        },
+                        {
+                            "docDescription": "Class XII Marksheet",
+                            "trending": 0,
+                            "searchKeywords": "Maharashtra State Board of Secondary and Higher Secondary Education, Maharashtra, Class XII Marksheet, Maharashtra, State, Board, Secondary, and, Higher, Secondary, Education, Class, XII, Marksheet",
+                            "mostpopular_banner": "https://cf-media.api-setu.in/logo/doctypes/HSC-3.jpg",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/HSCER.png",
+                            "priority": "5",
+                            "mostPopular": "5",
+                            "newindg": 0,
+                            "orgId": "000098",
+                            "enabled": "Y",
+                            "partnerServiceId": "47",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "HSCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "year",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2015",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "rollnumber",
+                                        "label": "Seat No",
+                                        "required": "1",
+                                        "example": "P183286",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "totalmarks",
+                                        "label": "Total Marks Obtained",
+                                        "required": "1",
+                                        "example": "517",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "exsession",
+                                        "label": "Exam Session",
+                                        "required": "1",
+                                        "example": "MAR,OCT",
+                                        "dd_value": "MAR,OCT"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "da5a2a9848552819f4a3ead5936cb4eb8b802cadf57a8f9743c3ce6e6df8ead5"
+                        },
+                        {
+                            "docDescription": "Class XII Passing Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Maharashtra State Board of Secondary and Higher Secondary Education, Maharashtra, Class XII Passing Certificate, Maharashtra, State, Board, Secondary, and, Higher, Secondary, Education, Class, XII, Passing, Certificate",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/HPCER.png",
+                            "priority": "9",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "000098",
+                            "enabled": "Y",
+                            "partnerServiceId": "46",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "HPCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "year",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2015",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "rollnumber",
+                                        "label": "Seat No",
+                                        "required": "1",
+                                        "example": "P183286",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "totalmarks",
+                                        "label": "Total Marks Obtained",
+                                        "required": "1",
+                                        "example": "517",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "exsession",
+                                        "label": "Exam Session",
+                                        "required": "1",
+                                        "example": "MAR,OCT",
+                                        "dd_value": "MAR,OCT"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "00aa74d9fe3d2be8e9249bddc8295b204add80916af03080ec605b6e7df63b97"
+                        }
+                    ],
+                    "issuerId": "in.gov.maharashtra.mahahsscboard",
+                    "orgName": "Maharashtra State Board of Secondary and Higher Secondary Education",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/000098.png",
+                    "description": "Class X and XII marksheets and passing certificates of Maharashtra State Board of Secondary and Higher Secondary Education (https://mahahsscboard.maharashtra.gov.in/) are available in DigiLocker for years 1990 to 2023.",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "12",
+                    "orgId": "000098",
+                    "subdomainName": "hsscboardmh",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "006331",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Degree Certificate",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGCER.png",
+                            "priority": "178",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "006331",
+                            "enabled": "Y",
+                            "partnerServiceId": "1722",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "Roll No",
+                                        "required": "1",
+                                        "example": "EX: PRN No - 3121295XXX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "Registration No",
+                                        "required": "1",
+                                        "example": "EX: PRN No - 3121295XXX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": "2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "f6dbcadd55191e08230efaeafcba150f6cf6dbb97bcd0f299713c81da1a493b1"
+                        }
+                    ],
+                    "issuerId": "in.ac.muhs",
+                    "orgName": "Maharashtra University Of Health Sciences, Nashik",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/006331.png",
+                    "description": "Maharashtra University Of Health Sciences, Nashik is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts.\n                Degree - 2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023 \n                Marksheet - NA \n                Diploma - NA \n                Transcript - NA",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "006331",
+                    "subdomainName": "muhs",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "014626",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Degree/ Diploma Marksheet",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGMST.PNG",
+                            "priority": "108",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "014626",
+                            "enabled": "Y",
+                            "partnerServiceId": "5109",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGMST",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "Roll No",
+                                        "required": "1",
+                                        "example": "PG200XX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "Registration No",
+                                        "required": "1",
+                                        "example": "1-93640409XX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": "2020,2021,2022"
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "SEM",
+                                        "label": "Semester",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": "I,II,III,IV,V,VI,VII,VIII,IX,X"
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "MONTH",
+                                        "label": "Month",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": "JANUARY,FEBRUARY,MARCH,APRIL,MAY,JUNE,JULY,AUGUST,SEPTEMBER,OCTOBER,NOVEMBER,DECEMBER"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "a346f5e2aa049689b190adef42c3be71440f31646e970c8c0f2c4d1234585fda"
+                        },
+                        {
+                            "docDescription": "Diploma Certificate",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DIPCR.png",
+                            "priority": "112",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "014626",
+                            "enabled": "Y",
+                            "partnerServiceId": "5127",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DIPCR",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "Registration No",
+                                        "required": "1",
+                                        "example": "1-93640409XX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "Roll No",
+                                        "required": "1",
+                                        "example": "PG200XX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": "2022"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "f799fdba6cf54935b7307a8b741c87d21391ab2b0606d4b18e1c409dcd41c1be"
+                        },
+                        {
+                            "docDescription": "Transcript",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/TRTMP.png",
+                            "priority": "9999",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "014626",
+                            "enabled": "Y",
+                            "partnerServiceId": "4173",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "TRTMP",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "Roll No.",
+                                        "required": "1",
+                                        "example": "PG200XX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "Registration No.",
+                                        "required": "1",
+                                        "example": "1-93641261XX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2020,2021,2022",
+                                        "dd_value": "2020,2021,2022"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "e561ea45b112b8be884399a31532a455256abe278e04a9e2d5103cea68929657"
+                        }
+                    ],
+                    "issuerId": "edu.met",
+                    "orgName": "MET INSTITUTE OF POST GRADUATE DIPLOMA IN MANAGEMENT",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/014626.png",
+                    "description": "MET INSTITUTE OF POST GRADUATE DIPLOMA IN MANAGEMENT is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts \n                Degree - NA \n                Marksheet - 2020 \n                Diploma -  2022 \n                Transcript - 2022",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "014626",
+                    "subdomainName": "metini",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "032742",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Degree/ Diploma Marksheet",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGMST.PNG",
+                            "priority": "108",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "032742",
+                            "enabled": "Y",
+                            "partnerServiceId": "3943",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGMST",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "Roll No",
+                                        "required": "1",
+                                        "example": "J0XX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "Registration No ",
+                                        "required": "1",
+                                        "example": "405182100XX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2019,2021,2022,2023",
+                                        "dd_value": "2019,2021,2022,2023"
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "MONTH",
+                                        "label": "Month",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": "JANUARY,FEBRUARY,MARCH,OCTOBER,DECEMBER"
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "SEM",
+                                        "label": "Semester",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": "I,II,III,IV,V,VI,VII,VIII,IX,X"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "19330ccf19a0543e3e721592ed557324d754d9961a2054922d4744149e083876"
+                        }
+                    ],
+                    "issuerId": "in.ac.mithibai",
+                    "orgName": "Mithibai College of Arts, Chauhan Institute of Science & Amrutben Jivanlal College of Commerce and Economics",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/032742.png",
+                    "description": " Mithibai College of Arts, Chauhan Institute of Science and Amrutben Jivanlal College of Commerce and Economics is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts.\n                Degree - NA \n                Marksheet - 2019,2021,2022,2023 \n                Diploma - NA \n                Transcript - NA",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "032742",
+                    "subdomainName": "mithibai",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "006813",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Indian Navy Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Nuclear Biological Chemical and Damage Control School",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/NVCER.png",
+                            "priority": "9999",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "006813",
+                            "enabled": "Y",
+                            "partnerServiceId": "1799",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "NVCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PERSONAL",
+                                        "label": "Personal No",
+                                        "required": "1",
+                                        "example": "12345-Y",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "ACADEMIC_COURSE_ID",
+                                        "label": "Course Id",
+                                        "required": "1",
+                                        "example": "42.040",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2015,2016,2017,2018,2019,2020,2021,2022,2023",
+                                        "dd_value": "2015,2016,2017,2018,2019,2020,2021,2022,2023"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "b48122128e5db2a0e464ddef665dee12dde4ac85c6f2c11ae9b0765fa9839df6"
+                        },
+                        {
+                            "docDescription": "Indian Navy Marksheet",
+                            "trending": 0,
+                            "searchKeywords": "Nuclear Biological Chemical and Damage Control School",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/NVMST.png",
+                            "priority": "9999",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "006813",
+                            "enabled": "Y",
+                            "partnerServiceId": "1799",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "NVMST",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PERSONAL",
+                                        "label": "Personal No",
+                                        "required": "1",
+                                        "example": "12345-Y",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "ACADEMIC_COURSE_ID",
+                                        "label": "Course Id",
+                                        "required": "1",
+                                        "example": "42.040",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2015,2016,2017,2018,2019,2020,2021,2022,2023",
+                                        "dd_value": "2015,2016,2017,2018,2019,2020,2021,2022,2023"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "a4af863e5dce34ce1742df230094a18b9411e5495d9456a807887b729399e9e6"
+                        }
+                    ],
+                    "issuerId": "in.gov.ina.nbcdschool",
+                    "orgName": "Nuclear Biological Chemical and Damage Control  School",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/006813.png",
+                    "description": "Nuclear Biological Chemical and Damage Control  School is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts.\n                Degree - 2018,2019,2020,2021,2022,2023 \n                Marksheet - 2015,2016,2017,2018,2019,2020,2021,2022,2023 \n                Diploma - NA \n                Transcript - NA",
+                    "categories": [
+                        {
+                            "catId": "4",
+                            "subCategories": [
+                                {
+                                    "subCatId": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "catId": "2",
+                            "subCategories": [
+                                {
+                                    "subCatId": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "catId": "8",
+                            "subCategories": [
+                                {
+                                    "subCatId": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "006813",
+                    "subdomainName": "nbcdschool",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "002222",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "No Dues/ Objection Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Sailu Municipal Council, Maharashtra, No Dues/ Objection Certificate, Sailu, Municipal, Council, Dues, Objection, Certificate",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/NDCER.png",
+                            "priority": "66",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "002222",
+                            "enabled": "Y",
+                            "partnerServiceId": "548",
+                            "supportedFormats": [
+                                "pdf"
+                            ],
+                            "docTypeId": "NDCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "appid",
+                                        "label": "ApplicationNumber",
+                                        "required": "1",
+                                        "example": "YU54ERS98",
+                                        "dd_value": ""
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "0",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "8cac3ed4123b98d0b79095e951a292baec27056092e4dbd8f52cc29a5eed6f54"
+                        }
+                    ],
+                    "issuerId": "org.npsailu",
+                    "orgName": "Sailu Municipal Council",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/002222.png",
+                    "description": "Sailu Municipal Council is B Class Municipal Council in Parbhani Distict. It is about 45 Km away from District headquarter Parbhani it is located at latitude 19.442` N and longtitud 76.429`E at altitude of 415M.  Sailu Municipal council provides all online RTS service. We have added some RTS services in Digilocker like No Dues, Marriage Certificate etc.",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "30"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "002222",
+                    "subdomainName": "npsailu",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "004762",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Degree Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Sant gadge baba amravati university",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGCER.png",
+                            "priority": "178",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "004762",
+                            "enabled": "Y",
+                            "partnerServiceId": "1608",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "ROLL NO",
+                                        "required": "1",
+                                        "example": "130001",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "YEAR",
+                                        "required": "1",
+                                        "example": "2017,2018,2019,2020",
+                                        "dd_value": "2017,2018,2019,2020"
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "ACADEMIC_COURSE_ID",
+                                        "label": "ACADEMIC COURSE ID",
+                                        "required": "1",
+                                        "example": "B.A,B.A. in Law,B.A.S.W,B.ARCH,B.B.A,B.C.A,B.COM,B.E,B.ED,B.J.M.C,B.LIB,B.P.A,B.P.ED,B.P.ED & S,B.PH",
+                                        "dd_value": "B.A,B.A. in Law,B.A.S.W,B.ARCH,B.B.A,B.C.A,B.COM,B.E,B.ED,B.J.M.C,B.LIB,B.P.A,B.P.ED,B.P.ED & S,B.PHARM,B.S.W,B.SC,B.SC(Home Science),B.TECH,B.TEXT,B.VOC,D.B.M,D.F.M,D.M.M,D.PHARM,D.TAX,D.YOGA,L.L.B,L.L.M,M.A,M.B.A,M.C.A,M.C.M,M.COM,M.E,M.ED,M.HRD, M.J.M.C,M.LIB,M.M.C,M.P.ED,M.PHIL,M.S.W,M.SC,M.SC (Applied Electronics),M.TECH,M.TECH COSMETIC,P.G.D IN  Performing Folk Arts,P.G.D IN Bio Medical Electronics,P.G.D IN Communication Skills in English,P.G.D IN Counseling and  Psychotherapy,P.G.D IN Human Rights Education,P.G.D IN Watershed Technology and Management,P.G.D IN Yoga Therapy,P.G.D.C.S"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "1"
+                                }
+                            },
+                            "key": "38aea683f28fdddf6bf8906f0992b1cc57568e011422ebe4ee6f5cc0c632a750"
+                        }
+                    ],
+                    "issuerId": "in.ac.sgbau",
+                    "orgName": "Sant Gadge Baba Amravati University",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/004762.png",
+                    "description": "Sant Gadge Baba Amravati University is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts \n                Degree - 2017,2018,2019,2020 \n                Marksheet - NA \n                Diploma -  NA \n                Transcript - NA",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "004762",
+                    "subdomainName": "sgbau",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "007779",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Indian Navy Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Indian Navy, School of Medical Assistants",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/NVCER.png",
+                            "priority": "9999",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "007779",
+                            "enabled": "Y",
+                            "partnerServiceId": "1891",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "NVCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PERSONAL",
+                                        "label": "Personal No.",
+                                        "required": "1",
+                                        "example": "12345-Y",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "ACADEMIC_COURSE_ID",
+                                        "label": "Course Id",
+                                        "required": "1",
+                                        "example": "42.040",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2011,2012,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024",
+                                        "dd_value": "2011,2012,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "146915b9201624ffc478def09546d0002237c4ae2f6d7bab84096ffce821ed64"
+                        },
+                        {
+                            "docDescription": "Indian Navy Marksheet",
+                            "trending": 0,
+                            "searchKeywords": "Indian Navy, School of Medical Assistants",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/NVMST.png",
+                            "priority": "9999",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "007779",
+                            "enabled": "Y",
+                            "partnerServiceId": "1891",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "NVMST",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "PERSONAL",
+                                        "label": "Personal No.",
+                                        "required": "1",
+                                        "example": "12345-Y",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "ACADEMIC_COURSE_ID",
+                                        "label": "Course Id",
+                                        "required": "1",
+                                        "example": "42.040",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2011,2012,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024",
+                                        "dd_value": "2011,2012,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "61dea9da222ba21a23a8ba085fc64baec3f3d94a6938e4440b45d2142367a048"
+                        }
+                    ],
+                    "issuerId": "in.gov.ina.soma",
+                    "orgName": "School of Medical Assistants",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/007779.png",
+                    "description": "School of Medical Assistants is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts.\n                Degree - 2011,2012,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024 \n                Marksheet - 2014,2015,2016,2017,2018,2019,2020,2021,2022,2023 \n                Diploma - NA \n                Transcript - NA",
+                    "categories": [
+                        {
+                            "catId": "4",
+                            "subCategories": [
+                                {
+                                    "subCatId": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "catId": "2",
+                            "subCategories": [
+                                {
+                                    "subCatId": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "007779",
+                    "subdomainName": "soma",
+                    "orgState": "Maharashtra"
+                },
+                {
+                    "objectID": "003151",
+                    "_index": "digilocker",
+                    "_score": 1,
+                    "docTypes": [
+                        {
+                            "docDescription": "Degree Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Smt Nathibai Damodar Thackersey Womens University Mumbai",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGCER.png",
+                            "priority": "178",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "003151",
+                            "enabled": "Y",
+                            "partnerServiceId": "2449",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGCER",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "Roll No",
+                                        "required": "1",
+                                        "example": "12345",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "Registration No",
+                                        "required": "1",
+                                        "example": "A/12345",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",
+                                        "dd_value": "2014,2015,2016,2017,2018,2019,2020,2021,2022,2023"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "1"
+                                }
+                            },
+                            "key": "e463fb4c3f34b8173a15bd845dfad4aa53e32e166a5fce2c989ac1266878bacb"
+                        },
+                        {
+                            "docDescription": "Degree/ Diploma Marksheet",
+                            "trending": 0,
+                            "searchKeywords": null,
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DGMST.PNG",
+                            "priority": "108",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "003151",
+                            "enabled": "Y",
+                            "partnerServiceId": "4705",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DGMST",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "Registration No",
+                                        "required": "1",
+                                        "example": "20200161000256XX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "Roll No ",
+                                        "required": "1",
+                                        "example": "256XX",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "MONTH",
+                                        "label": "Month",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": "JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER"
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "SEM",
+                                        "label": "Semester",
+                                        "required": "1",
+                                        "example": "",
+                                        "dd_value": "I,II,III,IV,V,VI,VII,VIII,IX,X"
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",
+                                        "dd_value": "2014,2015,2016,2017,2018,2019,2020,2021,2022,2023"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "0",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "0"
+                                }
+                            },
+                            "key": "057f2b236c3f3ea3bcb0a3cea95272568408000941868087713e37b4e4445289"
+                        },
+                        {
+                            "docDescription": "Diploma Certificate",
+                            "trending": 0,
+                            "searchKeywords": "Smt Nathibai Damodar Thackersey Womens University Mumbai",
+                            "mostpopular_banner": "",
+                            "link": "https://cf-media.api-setu.in/logo/doctypes/DIPCR.png",
+                            "priority": "112",
+                            "mostPopular": "0",
+                            "newindg": 0,
+                            "orgId": "003151",
+                            "enabled": "Y",
+                            "partnerServiceId": "2449",
+                            "supportedFormats": [
+                                "xml",
+                                "pdf"
+                            ],
+                            "docTypeId": "DIPCR",
+                            "activityStatus": "Y",
+                            "parameters": {
+                                "iparams": [
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "RROLL",
+                                        "label": "Roll No",
+                                        "required": "1",
+                                        "example": "12345",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "REGNO",
+                                        "label": "Registration No",
+                                        "required": "1",
+                                        "example": "A/12345",
+                                        "dd_value": ""
+                                    },
+                                    {
+                                        "cdd_level": "",
+                                        "keyname": "YEAR",
+                                        "label": "Year",
+                                        "required": "1",
+                                        "example": "2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",
+                                        "dd_value": "2014,2015,2016,2017,2018,2019,2020,2021,2022,2023"
+                                    }
+                                ],
+                                "details": {
+                                    "enabledDob": "1",
+                                    "enabledGender": "0",
+                                    "enabledAadhaar": "0",
+                                    "enabledFullname": "1",
+                                    "enabledMobile": "0",
+                                    "enabledAadhaarPhoto": "1"
+                                }
+                            },
+                            "key": "82be856899887672d398ddc072906b960f842f3245cae7ee4bf88e469632da6a"
+                        }
+                    ],
+                    "issuerId": "in.ac.sndt",
+                    "orgName": "Smt. Nathibai Damodar Thackersey Women's University, Mumbai",
+                    "stateLogo": "https://cf-media.api-setu.in/logo/state/MH.png",
+                    "link": "https://cf-media.api-setu.in/logo/issuers/003151.png",
+                    "description": "Smt. Nathibai Damodar Thackersey Women's University, Mumbai is issuing their Digital awards for the following years, through DigiLocker. These can be pulled by students into their DigiLocker accounts.\n                Degree - 2014,2015,2016,2017,2018,2019,2020,2021,2023 \n                Marksheet - 2022 \n                Diploma - 2014,2015,2016,2017,2018,2019,2020,2021 \n                Transcript - NA",
+                    "categories": [
+                        {
+                            "catId": "4"
+                        },
+                        {
+                            "catId": "2"
+                        }
+                    ],
+                    "priority": "9999",
+                    "orgId": "003151",
+                    "subdomainName": "sndt",
+                    "orgState": "Maharashtra"
+                }
+            ],
+            "index": "digilocker",
+            "params": "facetFilters=%2C%2CorgState%3AMaharashtra%2C%2C&facets=total_api%2Cauthority%2CorgState%2Ccategories%2CcentralMinistry%2CapiType&hitsPerPage=21&maxValuesPerFacet=50"
+        }
+    ]
+}
