@@ -1,23 +1,25 @@
+// A palindrome is a word, phrase, number, or sequence that reads the same forwards and backward, like "madam," "racecar," or the number 121
+
 function isPalindrome(str) {
   // Convert the string to lowercase
   let lowerStr = str.toLowerCase();
 
   // Initialize an empty string to store the cleaned characters
-  let cleanedStr = '';
+  let cleanedStr = "";
 
   // Loop through each character and keep only alphanumeric characters
   for (let i = 0; i < lowerStr.length; i++) {
     let char = lowerStr[i];
     if (
-      (char >= 'a' && char <= 'z') || // Check if it's a lowercase letter
-      (char >= '0' && char <= '9') // Check if it's a digit
+      (char >= "a" && char <= "z") || // Check if it's a lowercase letter
+      (char >= "0" && char <= "9") // Check if it's a digit
     ) {
       cleanedStr += char;
     }
   }
   console.log(cleanedStr);
   // Reverse the cleaned string
-  let reversedStr = '';
+  let reversedStr = "";
   // for (let i = cleanedStr.length - 1; i >= 0; i--) {
   //   reversedStr += cleanedStr[i];
   // }
@@ -34,8 +36,8 @@ function isPalindrome(str) {
 }
 
 // Example usage:
-let string1 = 'A man, a plan, a canal: Panama';
-let string2 = 'Hello, World!';
+let string1 = "A man, a plan, a canal: Panama";
+let string2 = "Hello, World!";
 
 console.log(`"${string1}" is a palindrome:`, isPalindrome(string1)); // true
 console.log(`"${string2}" is a palindrome:`, isPalindrome(string2)); // false
